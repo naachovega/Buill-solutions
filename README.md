@@ -1,2 +1,2 @@
 # Built-solutions
-Repository for Built Website
+Web apps, mobile apps and web development.
