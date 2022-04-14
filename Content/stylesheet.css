@@ -1,39 +1,35 @@
 #header{
-    padding-top: 20px;
     text-align: center;
-    font-size: x-large;
-    color: #FA7268;
-
+    font-size: 36px;
 }
 
 #site-container{
    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: linear-gradient(to right, #754e67, #002233,#002233);
+    background-image: linear-gradient(to bottom, #06113C, #345B63,#06113C);
+    font-size: large;
+    color: #FF8C32;
 }
 
 #navigation, #navigation:visited, a:hover, a:active {
   padding-right: 2%;
   text-align: right;
-  color: #FA7268;
 }
 
 #soon{
     text-align: center;
     padding-top: 15%;
-    color: #FA7268;
 }
 
 #social{
   padding-top: 100px;
   text-align: center;
-  color: #FA7268;
 }
 
 .footer{
   padding-top: 150px;
   font-size: smaller;
   text-align: right;
- color: #a7a4a6; 
+  color: #EEEEEE  ; 
 }
 
 
