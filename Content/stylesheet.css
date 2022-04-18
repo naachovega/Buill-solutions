@@ -1,51 +1,56 @@
 #header{
+  top: 0;
     text-align: center;
-    font-size: 36px;
-}
+    font-size: 40px;
+  }
 
 #site-container{
-  font-family:'Times New Roman', Times, serif;
-    background-image: linear-gradient(to bottom, #06113C, #345B63,#06113C);
     font-size: large;
-    color: #FF8C32;
-}
+    color: #ebebeb;
+    font-family:'Times New Roman', Times, serif;
+    background-color:#001F51 ;
+  }
 
-#navigation, #navigation:visited, a:hover, a:active {
-  padding-right: 2%;
-  text-align: right;
+#root{
+  width: 100%;
+  color: #ebebeb;
 }
 
 #soon{
+  padding-top: 18%;
     text-align: center;
-    padding-top: 15%;
 }
 
 #social{
-  padding-top: 100px;
+  padding-top: 150px;
+  text-align: center;
+}
+
+#socialmedia-icons{
   text-align: center;
 }
 
 .footer{
-  opacity: 0.3;
-  padding-top: 190px;
+  padding: 10px 10px 0px 10px;
+  height: 40px;
+  position:absolute;
+  bottom:0;
+  opacity: 0.4;
+  text-align: center;
   font-size: smaller;
-  text-align: right;
-  color: #EEEEEE  ; 
 }
 
-
-
 .fa {
-  padding: 20px;
-  font-size: 30px;
+  padding: 15px;
+  font-size: 20px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
   border-radius: 50%;
+  float:none;
 }
 
   .fa:hover {
-      transition: 0.6s;
+      transition: 0.2s;
       opacity: 0.7;
   }
 
