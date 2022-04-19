@@ -19,9 +19,11 @@ main{
   height: 100vh;
 }
 
-h1.cooming{
+h1.coming{
   margin: 0;
-  color: #E43F5A;
+  background-image: linear-gradient(60deg, #E43F5A, #7C30FF);
+  background-clip: text;
+  color: transparent;
 }
 
 p.rights{
