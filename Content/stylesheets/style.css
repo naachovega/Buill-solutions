@@ -15,7 +15,7 @@ main{
   align-content: space-between;
 }
 
-#root{
+div.root{
   background-color: #0d1119;
   height: 100vh;
 }
