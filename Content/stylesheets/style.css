@@ -1,0 +1,30 @@
+/* 
+  colores: 
+    rojo #E43F5A
+    violeta #7C30FF
+*/
+.align{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main{
+  height: 100vh;
+  align-content: space-between;
+}
+
+#root{
+  background-color: #071C2C;
+  height: 100vh;
+}
+
+h1.cooming{
+  margin: 0;
+  color: #E43F5A;
+}
+
+p.rights{
+  color: #7C30FF;
+  text-align: center;
+}
