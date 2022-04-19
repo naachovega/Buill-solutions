@@ -2,6 +2,7 @@
   colores: 
     rojo #E43F5A
     violeta #7C30FF
+    fondo oscuro #071C2C
 */
 .align{
   display: flex;
@@ -15,11 +16,12 @@ main{
 }
 
 #root{
-  background-color: #071C2C;
+  background-color: #0d1119;
   height: 100vh;
 }
 
 h1.coming{
+  opacity: 0.8;
   margin: 0;
   background-image: linear-gradient(60deg, #E43F5A, #7C30FF);
   -webkit-background-clip: text;
@@ -27,6 +29,8 @@ h1.coming{
 }
 
 p.rights{
+  opacity: 0.4;
   color: #7C30FF;
   text-align: center;
+  font-style: italic;
 }
