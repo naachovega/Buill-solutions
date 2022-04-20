@@ -5,7 +5,7 @@ div .negro {
     El fondo del nav podria ser el mismo color 
     que el fondo de la pagina #0d1119
     */
-    background-color: #000;
+    background-color: #0d1116;
     position: fixed;
     z-index: 1001;
     transition: 0.7s;
@@ -43,11 +43,22 @@ div .violeta.cerrado {
     transition: 0.7s;
     transition-delay: 0.2s;
     opacity: 100%;
+
 }
+
+.mailto{
+    padding-top: 40px;
+}
+
+.mail{
+  text-decoration: none;
+  color: #dddddd;
+}
+
 
 .menu-mobile #bt-menu-mobile {
   outline:none;cursor:pointer; border: none; background: none; width: 40px; float: right; position: relative; height: 26px;z-index: 2000;}
-.menu-mobile #bt-menu-mobile span{  background-color: #ffffff; display: block; height: 4px; position: absolute; width: 100%; border-radius: 4px;}
+.menu-mobile #bt-menu-mobile span{  background-color: #dddddd; display: block; height: 4px; position: absolute; width: 100%; border-radius: 4px;}
 .menu-mobile #bt-menu-mobile span.top{ top: 0;}
 .menu-mobile #bt-menu-mobile span.middle{ top: 50%; margin-top: -2px;width:30px;}
 .menu-mobile #bt-menu-mobile span.bottom{ top:100%; margin-top: -4px;width:20px;}
