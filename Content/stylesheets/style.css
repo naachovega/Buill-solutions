@@ -52,3 +52,7 @@ nav{
   -webkit-text-stroke: 0.5px #fff;
   -webkit-text-fill-color: transparent;
 }
+
+.links a:hover{
+  -webkit-text-fill-color: #fff;
+}

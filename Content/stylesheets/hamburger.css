@@ -43,10 +43,10 @@ div .violeta.cerrado {
 
 .menu-mobile #bt-menu-mobile {
   outline:none;cursor:pointer; border: none; background: none; width: 40px; float: right; position: relative; height: 26px;z-index: 2000;}
-.menu-mobile #bt-menu-mobile span{  background-color: #ffffff; display: block; height: 4px; position: absolute; width: 100%;}
+.menu-mobile #bt-menu-mobile span{  background-color: #ffffff; display: block; height: 4px; position: absolute; width: 100%; border-radius: 4px;}
 .menu-mobile #bt-menu-mobile span.top{ top: 0;}
 .menu-mobile #bt-menu-mobile span.middle{ top: 50%; margin-top: -2px;width:30px;}
-.menu-mobile #bt-menu-mobile span.bottom{ top:100%; margin-top: -2px;width:20px;}
+.menu-mobile #bt-menu-mobile span.bottom{ top:100%; margin-top: -4px;width:20px;}
 
 .menu-mobile #bt-menu-mobile.close-bt-hamburguer .middle{ opacity:0;}
 .menu-mobile #bt-menu-mobile.close-bt-hamburguer span.top{ margin: -2px 0 0 -3px; top: 40%; width: 110%;
