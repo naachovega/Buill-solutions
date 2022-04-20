@@ -56,3 +56,15 @@ nav{
 .links a:hover{
   -webkit-text-fill-color: #fff;
 }
+
+
+/* Prueba carrousel */
+.flickity-button {
+  display: none;
+}
+.flickity-page-dots{
+  display: none;
+}
+.carousel-cell {
+  width: 80%; 
+}
