@@ -3,6 +3,7 @@
     rojo #E43F5A
     violeta #7C30FF
     fondo oscuro #071C2C
+    fondo azul mas oscuro #0d1119
 */
 
 .align{
@@ -49,12 +50,14 @@ nav{
 .links a{
   text-decoration: none;
   font-size: 42px;
-  -webkit-text-stroke: 0.5px #fff;
+  -webkit-text-stroke: 1px #dddddd;
+  font-weight: 600;
   -webkit-text-fill-color: transparent;
 }
 
 .links a:hover{
-  -webkit-text-fill-color: #fff;
+  transition: 0.5s;
+  -webkit-text-fill-color: #dddddd;
 }
 
 
