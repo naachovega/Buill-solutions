@@ -4,10 +4,15 @@
     violeta #7C30FF
     fondo oscuro #071C2C
 */
+
 .align{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+header{
+  padding-top: 10px;
 }
 
 main{
@@ -33,4 +38,17 @@ p.rights{
   color: #7C30FF;
   text-align: center;
   font-style: italic;
+}
+
+nav{
+  position: absolute !important;
+  right: 7%;
+  justify-content: flex-end;
+}
+
+.links a{
+  text-decoration: none;
+  font-size: 42px;
+  -webkit-text-stroke: 0.5px #fff;
+  -webkit-text-fill-color: transparent;
 }
