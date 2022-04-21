@@ -1,0 +1,15 @@
+#proyectos{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Prueba carrousel */
+.flickity-button {
+    display: none;
+  }
+  .flickity-page-dots{
+    display: none;
+  }
+  .carousel-cell {
+    width: 80%; 
+  }

@@ -16,14 +16,8 @@ header{
   padding-top: 10px;
 }
 
-main{
-  height: 100vh;
-  align-content: space-between;
-}
-
 div.root{
   background-color: #0d1119;
-  height: 100vh;
 }
 
 h1.coming{
@@ -60,14 +54,6 @@ nav{
   -webkit-text-fill-color: #dddddd;
 }
 
-
-/* Prueba carrousel */
-.flickity-button {
-  display: none;
-}
-.flickity-page-dots{
-  display: none;
-}
-.carousel-cell {
-  width: 80%; 
+section{
+  margin-top: 60px !important;
 }
