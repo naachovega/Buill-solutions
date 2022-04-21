@@ -6,12 +6,20 @@ window.addEventListener("load", function(){
 		$(".violeta").toggleClass("abierto");
 		$(".negro").toggleClass("abierto");
 		
-	  });
+	});
 
 
-      $('.main-carousel').flickity({
-        // options
-        cellAlign: 'left',
-        contain: true
-      });
+  $('.main-carousel').flickity({
+    // options
+    cellAlign: 'left',
+    contain: true
+  });
+
+  $(".links").click(function(){
+    $("#bt-menu-mobile").toggleClass("close-bt-hamburguer");
+    $(".violeta").toggleClass("abierto");
+		$(".negro").toggleClass("abierto");
+  });
+
+  
 })

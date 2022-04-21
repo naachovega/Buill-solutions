@@ -1,0 +1,19 @@
+#contacto h1.title{
+    text-align: start;
+}
+
+.inp{
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #15171d;
+    padding: 5px !important;
+    border-style: none;
+}
+
+.enviar{
+    border-style: none;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+}
