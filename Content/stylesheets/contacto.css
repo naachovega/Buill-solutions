@@ -10,6 +10,12 @@
     background: #15171d;
     padding: 5px !important;
     border-style: none;
+    outline: none;
+    border: 1px solid #15171d;
+}
+
+.inp:focus{
+    border: 1px solid #E43F5A;
 }
 
 .enviar{
