@@ -67,5 +67,18 @@ section{
   text-align: center;
 }
 .text{
+  text-align: center;
   color: #fff;
+}
+
+.contact{
+  font-weight: bold;
+  text-align: left !important;
+}
+.odd{
+  text-align: left;
+}
+
+.even{
+text-align: right;
 }
