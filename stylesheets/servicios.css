@@ -1,10 +1,10 @@
 .service-header{
-    padding: 1%; 
-    font-weight: bold;
+    padding: 3%; 
+    font-weight: 800;
 }
 
 .subtext{
-    height: 250px;
+    height: 260px;
     font-size: 14px;
     text-align: start;
     color: #dddddd;
@@ -12,29 +12,25 @@
 }
 
 .planes{
-    height: 350px;
-    margin-right: 3%;
-    margin-bottom: 3%;
+    margin-left: 2%;margin-right: 2%;
+    margin-bottom: 4%;
+    height: 360px;
     border-radius: 20px;
     transition: transform .25s, opacity .25s, width .25s, height .25s;
     overflow: hidden;
     z-index: 1;
-    box-shadow: -7px 6px 8px 0 #333222, 
-    4px -5px 17px 6px #333222, 
+    box-shadow: -7px 6px 8px 0 #aaaaaa, 
+    4px -5px 17px 6px #aaaaaa, 
     inset 35px -35px 45px 3px #0d1119, 
     inset -35px 35px 45px 3px #0d1119;
  }
 
  .botton-planes{
     color: #dddddd;
-    margin-right: 3%;
     margin-bottom: 3%;
     border-radius: 20px;
     transition: transform .25s, opacity .25s, width .25s, height .25s;
     overflow: hidden;
     z-index: 1;
-    box-shadow: -7px 6px 8px 0 #333222, 
-    4px -5px 17px 6px #333222, 
-    inset 35px -35px 45px 3px #0d1119, 
-    inset -35px 35px 45px 3px #0d1119;
+    background-color: #0d1119;
  }
