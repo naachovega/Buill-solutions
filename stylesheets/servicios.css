@@ -4,7 +4,6 @@
 }
 
 .subtext{
-    height: 260px;
     font-size: 14px;
     text-align: start;
     color: #dddddd;
@@ -12,25 +11,33 @@
 }
 
 .planes{
-    margin-left: 2%;margin-right: 2%;
-    margin-bottom: 4%;
+    display: flex;
+    align-content: space-between;
+    background-color: #0d1119;
+    height: 260px;
+    padding: 15px;
+    margin-bottom: 6%;
+    margin-left: 0 !important;
     height: 360px;
     border-radius: 20px;
     transition: transform .25s, opacity .25s, width .25s, height .25s;
     overflow: hidden;
     z-index: 1;
-    box-shadow: -7px 6px 8px 0 #aaaaaa, 
-    4px -5px 17px 6px #aaaaaa, 
-    inset 35px -35px 45px 3px #0d1119, 
-    inset -35px 35px 45px 3px #0d1119;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
  }
 
  .botton-planes{
     color: #dddddd;
-    margin-bottom: 3%;
     border-radius: 20px;
     transition: transform .25s, opacity .25s, width .25s, height .25s;
     overflow: hidden;
     z-index: 1;
     background-color: #0d1119;
+ }
+
+ @media (min-width: 1024px) {
+     #servicios{
+         justify-content: space-between;
+     }
+    
  }
