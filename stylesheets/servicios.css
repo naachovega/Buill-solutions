@@ -4,6 +4,7 @@
 }
 
 .subtext{
+    height: 250px;
     font-size: 14px;
     text-align: start;
     color: #dddddd;
@@ -11,7 +12,7 @@
 }
 
 .planes{
-    height: 450px;
+    height: 350px;
     margin-right: 3%;
     margin-bottom: 3%;
     border-radius: 20px;
