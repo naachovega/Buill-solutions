@@ -1,4 +1,7 @@
-#sobreNosotros{
-height: 385px;
+@media (min-width: 1024px) {
+    #sobreNosotros
+    {
+        justify-content: space-between;
+        height: 385px;
+    }
 }
-

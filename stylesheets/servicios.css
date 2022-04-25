@@ -13,7 +13,7 @@
 .planes{
     display: flex;
     align-content: space-between;
-    background-color: rgb(20, 20, 20);
+    background-color: #121621c4;
     height: 260px;
     padding: 15px;
     margin-bottom: 6%;
@@ -23,8 +23,9 @@
     transition: transform .25s, opacity .25s, width .25s, height .25s;
     overflow: hidden;
     z-index: 1;
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
-    border: 2px solid #181818;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 1px 2px, rgba(0, 0, 0, 0.07) 
+    0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    border: 2px solid #dddddd21;   
  }
 
  .botton-planes{
@@ -33,7 +34,8 @@
     transition: transform .25s, opacity .25s, width .25s, height .25s;
     overflow: hidden;
     z-index: 1;
-    background-color: #0d1119;
+    background-color: #121621c4;
+    border: 2px solid #dddddd21;
  }
 
  @media (min-width: 1024px) {
