@@ -14,11 +14,11 @@
     display: flex;
     align-content: space-between;
     background-color: #121621c4;
-    height: 300px;
+    height: 330px;
     padding: 15px;
     margin-bottom: 3%;
     margin-left: 0 !important;
-    height: 400px;
+    height: 430px;
     border-radius: 20px;
     transition: transform .25s, opacity .25s, width .25s, height .25s;
     overflow: hidden;
