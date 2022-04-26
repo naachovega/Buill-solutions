@@ -16,6 +16,11 @@ header{
   padding-top: 10px;
 }
 
+section{
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+}
+
 /*
 HEADER STICKY (ROMPE)
 header.header-outer{
@@ -72,11 +77,6 @@ nav{
 .links a:hover{
   transition: 0.5s;
   -webkit-text-fill-color: #dddddd;
-}
-
-section{
-  margin-top: 10px !important;
-  margin-bottom: 10px !important;
 }
 
 .title{
