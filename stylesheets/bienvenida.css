@@ -3,7 +3,7 @@
     padding-bottom: 220px !important;
     padding-left: 0;
     padding-right: 0;
-    height: 80vh;
+    height: 75vh;
     background: #15171d;
     background-image: url("../img/gifs/animation_500_l2gqonmf.gif");
     background-repeat: no-repeat;
@@ -68,6 +68,7 @@ h3.subTituloBienvenida{
     padding: 8px;
 }
 .contactButton:hover{
+    transition: 0.2s;
     background-color: #2a2a2a;
 }
 

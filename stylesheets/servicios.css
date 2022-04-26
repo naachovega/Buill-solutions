@@ -54,7 +54,7 @@
 
 }
 
-@media (min-width: 430px) and (max-width:1024px) {
+@media (min-width: 395px) and (max-width:1024px) {
     #servicios{
         justify-content: space-between;
    }
