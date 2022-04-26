@@ -1,0 +1,53 @@
+#bienvenida{
+    margin-top: 20px !important;
+    margin-bottom: 60px !important;
+}
+
+h1.tituloBienvenida{
+    text-align: center;
+    color: #fff;
+    margin-top: 60px;
+    font-size: 34px;
+    margin-bottom: 10 !important;
+
+    animation: fluido 30s ease-in-out infinite;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    /*background-image: linear-gradient(60deg, #E43F5A, #7C30FF);*/
+    background-size: 300%;
+    -webkit-background-clip: text;
+        background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@keyframes fluido {
+    0% { background-position: 0 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0 50% }
+}
+
+h3.subTituloBienvenida{
+    margin-top: 2px;
+    text-align: center;
+    color: #fff;
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contactButton{
+    border-style: none;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    text-align: end;
+    font-weight: bold;
+    border-radius: 21px;
+    margin-top: 30px;
+    padding: 8px;
+}
+.contactButton:hover{
+    background-color: #2a2a2a;
+}
+
+a.contact{
+    text-decoration: none;
+}
