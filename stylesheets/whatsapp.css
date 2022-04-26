@@ -16,6 +16,7 @@
 	text-decoration: none;
 	color: #fff;
   background-color: green;
+  transition: 0.5s;
 }
 
 .my-float{

@@ -18,18 +18,17 @@
     border: 1px solid #E43F5A;
 }
 
-.enviar{
+input.enviar{
     border-style: none;
     border: 1px solid #fff;
     background: transparent;
     color: #E43F5A;
     border: none;
-}
-
-.enviar:hover{
-    font-size: 18px;
+    text-align: end;
 }
 
 .fa-arrow-right-long{
-    margin-left: 6px;
+    color: #E43F5A;
+    margin-top: 6px !important;
+    margin-left: -19px;
 }

@@ -268,15 +268,21 @@
             <section id="contacto" class="col-12 col-lg-4">
                 <h1 class="col-12 title odd">Contact/></h1>
                 <p class="text contact ">We built our dream, <br> Now lets build yours.</p>
-                <form action="https://formsubmit.co/colombofederico17@email.com" method="POST" class="col-12 col-lg-12">
-                    <input type="text" name="name" placeholder="Whats your name?" class="col-12 inp">
-                    <input type="text" name="email" placeholder="What email should we contact you at?" class="col-12 inp">
-                    <input type="text" name="phone" placeholder="Leave us a phone number" class="col-12 inp">
-                    <textarea placeholder="Whats your dream page about?" name="text" id="" rows="3" class="col-12 inp"></textarea>
+                <form id="form" class="col-12 col-lg-12">
+                    <input type="text" name="name" placeholder="Whats your name?" class="col-12 inp" required>
+                    <input type="email" name="email" placeholder="What email should we contact you at?" class="col-12 inp" required>
+                    <input type="number" name="phone" placeholder="Leave us a phone number" class="col-12 inp" required>
+                    <textarea placeholder="Whats your dream page about?" name="message" id="" rows="3" class="col-12 inp" required></textarea>
                     <div class="col-12 row" style="justify-content: end; margin: 0;">
-                        <button type="submit" class="col-7 col-lg-4 enviar">Lets get in contact<i class="fa-solid fa-arrow-right-long"></i></button>
+                        <input type="submit" id="button" class="col-7 col-lg-6 enviar" value="Lets get in contact"><i class="fa-solid fa-arrow-right-long col-1"></i>
                     </div>
                 </form>
+                <script type="text/javascript"
+                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+                <script type="text/javascript">
+                emailjs.init('DPH2SvZ4btnt3Iyv1')
+                </script>
             </section>
 
         </div>
@@ -299,6 +305,30 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+
+    <!--EmailJS-->
+    <script>
+        const btn = document.getElementById('button');
+
+        document.getElementById('form')
+        .addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        btn.value = 'Sending';
+
+        const serviceID = 'default_service';
+        const templateID = 'template_bbmksak';
+
+        emailjs.sendForm(serviceID, templateID, this)
+            .then(() => {
+            btn.value = 'Lets get in contact';
+            alert('Sent!');
+            }, (err) => {
+            btn.value = 'Lets get in contact';
+            alert(JSON.stringify(err));
+            });
+        });
     </script>
 </div>
 
