@@ -16,6 +16,25 @@ header{
   padding-top: 10px;
 }
 
+/*
+HEADER STICKY (ROMPE)
+header.header-outer{
+  display: flex;
+  align-items: center;
+  position: sticky;
+  height: 120px;
+  top: -40px; 
+  z-index: 10;
+  background-color: #0d1119;
+  padding-top: 10px;
+}
+
+.header-inner {
+  height: 80px;
+  position: sticky;
+  top: 0; 
+}*/
+
 div.root{
   background-color: #0d1119;
 }

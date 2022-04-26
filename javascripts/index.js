@@ -20,6 +20,4 @@ window.addEventListener("load", function(){
     $(".violeta").toggleClass("abierto");
 		$(".negro").toggleClass("abierto");
   });
-
-  
 })

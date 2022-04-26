@@ -1,0 +1,41 @@
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:20px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+  box-shadow: rgb(0 0 0 / 9%) 0px 1px 2px, rgb(0 0 0 / 7%) 0px 2px 4px, rgb(0 0 0 / 7%) 0px 4px 8px, rgb(0 0 0 / 7%) 0px 8px 16px, rgb(0 0 0 / 7%) 0px 16px 32px, rgb(0 0 0 / 7%) 0px 32px 64px;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #fff;
+  background-color: green;
+}
+
+.my-float{
+	margin-top:10px;
+	font-size: 40px !important;
+}
+
+@media(min-width: 1024px){
+	.float{
+		position:fixed;
+		width:80px;
+		height:80px;
+		bottom:40px;
+		right:40px;
+		background-color:#25d366;
+		color:#FFF;
+		border-radius:50px;
+		text-align:center;
+	  font-size:50px;
+	  box-shadow: rgb(0 0 0 / 9%) 0px 1px 2px, rgb(0 0 0 / 7%) 0px 2px 4px, rgb(0 0 0 / 7%) 0px 4px 8px, rgb(0 0 0 / 7%) 0px 8px 16px, rgb(0 0 0 / 7%) 0px 16px 32px, rgb(0 0 0 / 7%) 0px 32px 64px;
+	  z-index:100;
+	}
+}
