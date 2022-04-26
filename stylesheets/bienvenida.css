@@ -4,10 +4,11 @@
     padding-left: 0;
     padding-right: 0;
     height: 100%;
-    /*background-image: url("../img/pexels-athena-2582937.jpg");*/
     background: #15171d;
+    background-image: url("../img/gifs/animation_500_l2gqonmf.gif");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
     position: relative;
 }
 
