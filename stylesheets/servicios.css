@@ -14,11 +14,10 @@
     display: flex;
     align-content: space-between;
     background-color: #121621c4;
-    height: 330px;
+    height: 430px;
     padding: 15px;
     margin-bottom: 3%;
     margin-left: 0 !important;
-    height: 430px;
     border-radius: 20px;
     transition: transform .25s, opacity .25s, width .25s, height .25s;
     overflow: hidden;
@@ -29,7 +28,7 @@
  }
 
  .botton-planes{
-    width: 30%;
+    width: 50%;
     color: #dddddd;
     border-radius: 20px;
     transition: transform .25s, opacity .25s, width .25s, height .25s;
@@ -49,8 +48,27 @@
          justify-content: space-between;
          
     }
-    
     .botton-planes{
         width: 25%;
  }
+ .planes{
+     height: 450px;
+ }
+
+}
+
+@media (min-width: 430px) and (max-width:1024px) {
+    #servicios{
+        justify-content: space-between;
+   }
+   .botton-planes{
+       width: 35%;
+    }
+}
+
+@media (max-width:430px){
+
+    .planes{
+        height: 520px;
+    }
 }
