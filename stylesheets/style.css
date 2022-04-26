@@ -14,11 +14,12 @@
 
 header{
   padding-top: 10px;
+  background-color: #15171d;
 }
 
 section{
-  margin-top: 50px !important;
-  margin-bottom: 50px !important;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
 }
 
 /*

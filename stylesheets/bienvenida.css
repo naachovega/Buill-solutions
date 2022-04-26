@@ -1,15 +1,34 @@
 #bienvenida{
-    margin-top: 20px !important;
-    margin-bottom: 60px !important;
+    padding-top: 130px !important;
+    padding-bottom: 220px !important;
+    padding-left: 0;
+    padding-right: 0;
+    height: 100%;
+    /*background-image: url("../img/pexels-athena-2582937.jpg");*/
+    background: #15171d;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
+/*OSCURECE LA IMG DE FONDO*/
+/*#bienvenida:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.7;
+}*/
+
 h1.tituloBienvenida{
+    z-index: 5;
     text-align: center;
     color: #fff;
-    margin-top: 60px;
     font-size: 34px;
     margin-bottom: 10 !important;
-
     animation: fluido 30s ease-in-out infinite;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     /*background-image: linear-gradient(60deg, #E43F5A, #7C30FF);*/
@@ -25,6 +44,7 @@ h1.tituloBienvenida{
 }
 
 h3.subTituloBienvenida{
+    z-index: 5;
     margin-top: 2px;
     text-align: center;
     color: #fff;
@@ -34,6 +54,7 @@ h3.subTituloBienvenida{
 }
 
 .contactButton{
+    z-index: 5;
     border-style: none;
     border: 1px solid #fff;
     background: transparent;

@@ -80,13 +80,12 @@
                 </div>
             </div>
 
-        <div class="col-12 row align" > 
-            <section id="bienvenida" data-aos="fade-up" class="row align col-12 col-lg-10">
+            <section id="bienvenida" class="row align col-12 col-lg-10">
                 <h1 class="col-12 tituloBienvenida">Coding the future</h1>
                 <h3 class="col-12 subTituloBienvenida">We are buill solutions</h3>
                 <a href="#contacto" class="col-12 align contact"><button class="contactButton">Contact us</button></a>
             </section>
-
+        <div class="col-12 row align" > 
             <section id="comoTrabajamos" data-aos="fade-up" class="row align col-12 col-lg-10">
                 <h1 class="col-12 title odd">How we work/></How></h1>
                 <p class="col-12 col-lg-11 text">
@@ -112,7 +111,7 @@
                         To end this journey, we come up with innovative ideas, making your dream come true. 
                         We work with the latest technologies to keep up to date in such a competitive enviroment.</p>
                 </div>
-                </section>
+            </section>
 
             <section id="proyectos" class="col-12 col-lg-12 even">
                 <h1 class="col-12 col-lg-11 title">Our proyects/></h1>
@@ -328,10 +327,10 @@
 
         emailjs.sendForm(serviceID, templateID, this)
             .then(() => {
-            btn.value = 'Lets get in contact';
+            btn.value = 'Sent';
             alert('Sent!');
             }, (err) => {
-            btn.value = 'Lets get in contact';
+            btn.value = 'Sent';
             alert(JSON.stringify(err));
             });
         });
