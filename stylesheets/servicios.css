@@ -1,6 +1,10 @@
 .service-header{
     padding: 3%; 
     font-weight: 800;
+    text-align: start;
+    padding-bottom: 0;
+    margin-bottom: 4px;
+    color: #E43F5A;
 }
 
 .subtext{
@@ -41,6 +45,23 @@
 .botton-planes:hover{
     transition: 0.6s;
     background-color: #15171d;
+}
+
+li{
+    list-style: none;
+}
+
+.fa-angles-right{
+    padding-right: 7px;
+    color: #E43F5A;
+}
+.fa-angle-right{
+    padding-right: 7px;
+    color: #E43F5A;
+}
+.fa-burst{
+    padding-right: 7px;
+    color: #E43F5A;
 }
 
  @media (min-width: 1024px) {
