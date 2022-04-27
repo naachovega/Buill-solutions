@@ -29,7 +29,7 @@ h1.tituloBienvenida{
     z-index: 5;
     text-align: center;
     color: #fff;
-    font-size: 34px;
+    font-size: 46px;
     margin-bottom: 10 !important;
     animation: fluido 30s ease-in-out infinite;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -51,7 +51,7 @@ h3.subTituloBienvenida{
     text-align: center;
     color: #fff;
     font-weight: 200;
-    font-size: 20px;
+    font-size: 26px;
     margin-bottom: 20px;
 }
 
