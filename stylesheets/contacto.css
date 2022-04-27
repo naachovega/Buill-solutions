@@ -37,3 +37,8 @@ input.enviar{
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+#form{
+    border: 1px solid #dddddd21; 
+    padding: 25px;
+}
