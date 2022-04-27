@@ -58,7 +58,7 @@ h3.subTituloBienvenida{
 .contactButton{
     z-index: 5;
     border-style: none;
-    border: 1px solid #fff;
+    border: 1px solid #dddddd;
     background: transparent;
     color: #fff;
     text-align: end;
@@ -69,7 +69,10 @@ h3.subTituloBienvenida{
 }
 .contactButton:hover{
     transition: 0.2s;
-    background-color: #2a2a2a;
+    background-color: #ddddddaf;
+    /*
+	background-image: linear-gradient(90deg,#e43f5acf,#7C30FFcd);
+    */
 }
 
 a.contact{

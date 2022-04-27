@@ -4,19 +4,19 @@
 	height:60px;
 	bottom:40px;
 	right:20px;
-	background-color:#25d366;
-	color:#FFF;
+	background-image: linear-gradient(90deg,#e43f5acf,#7C30FFcd) ;
+	color:#fff;
 	border-radius:50px;
 	text-align:center;
-  font-size:30px;
-  box-shadow: rgb(0 0 0 / 9%) 0px 1px 2px, rgb(0 0 0 / 7%) 0px 2px 4px, rgb(0 0 0 / 7%) 0px 4px 8px, rgb(0 0 0 / 7%) 0px 8px 16px, rgb(0 0 0 / 7%) 0px 16px 32px, rgb(0 0 0 / 7%) 0px 32px 64px;
-  z-index:100;
+	font-size:30px;
+	box-shadow: rgb(0 0 0 / 9%) 0px 1px 2px, rgb(0 0 0 / 7%) 0px 2px 4px, rgb(0 0 0 / 7%) 0px 4px 8px, rgb(0 0 0 / 7%) 0px 8px 16px, rgb(0 0 0 / 7%) 0px 16px 32px, rgb(0 0 0 / 7%) 0px 32px 64px;
+	z-index:100;
 }
 .float:hover {
 	text-decoration: none;
-	color: #fff;
-  background-color: green;
-  transition: 0.5s;
+	color: 	#000;
+	background-image: linear-gradient(90deg,#e43f5acf,#7C30FFcd);
+	transition: 0.3s;
 }
 
 .my-float{
@@ -31,12 +31,12 @@
 		height:80px;
 		bottom:40px;
 		right:40px;
-		background-color:#25d366;
-		color:#FFF;
+		background-image: linear-gradient(90deg,#e43f5a,#7C30FF);
+		color:#fff;
 		border-radius:50px;
 		text-align:center;
-	  font-size:50px;
-	  box-shadow: rgb(0 0 0 / 9%) 0px 1px 2px, rgb(0 0 0 / 7%) 0px 2px 4px, rgb(0 0 0 / 7%) 0px 4px 8px, rgb(0 0 0 / 7%) 0px 8px 16px, rgb(0 0 0 / 7%) 0px 16px 32px, rgb(0 0 0 / 7%) 0px 32px 64px;
-	  z-index:100;
+		font-size:50px;
+		box-shadow: rgb(0 0 0 / 9%) 0px 1px 2px, rgb(0 0 0 / 7%) 0px 2px 4px, rgb(0 0 0 / 7%) 0px 4px 8px, rgb(0 0 0 / 7%) 0px 8px 16px, rgb(0 0 0 / 7%) 0px 16px 32px, rgb(0 0 0 / 7%) 0px 32px 64px;
+		z-index:100;
 	}
 }
