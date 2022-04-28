@@ -42,3 +42,41 @@ input.enviar{
     border: 1px solid #dddddd21; 
     padding: 25px;
 }
+
+.divPlanesContacto{
+  justify-content: space-between;
+  margin: 0px !important;
+}
+
+.planSelec{
+    color: #fff;
+    padding: 5%;
+    margin: 3% 0;
+    width: 47% !important;
+    background: #15171d;
+    border-style: none;
+    outline: none;
+    border: 1px solid #dddddd21;
+    border-radius: 10px;
+    box-shadow: 6px 6px 14px 0 rgb(0 0 0 / 55%), -3.5px -3.5px 8px 0 rgb(255 255 255 / 7%), inset -20px -20px 12px -3px rgb(255 255 255 / 2%), inset 20px 20px 7px -3px rgb(0 0 0 / 10%);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 19px 38px, rgba(0, 0, 0, 0.32) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 29px 0px;
+}
+
+.planSelec p{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: start;
+}
+
+.seleccionado{
+    box-shadow: 5px 5px 7px -2px rgba(0, 0, 0, .7), -5px -5px 7px -5px rgba(255, 255, 255, .1), inset -9px -9px 12px 0px rgba(255, 255, 255, .07), inset 9px 9px 12px 0px rgba(0, 0, 0, .7)!important;
+}
+.seleccionado p{
+    color: #E43F5A;
+    background-image: linear-gradient(60deg, #E43F5A, #7C30FF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
