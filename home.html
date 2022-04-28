@@ -114,9 +114,9 @@
                 <div class="trabajos row col-12 col-lg-4">
                     <div class="col-12 align">
                         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                        <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ubqfycud.json"  background="transparent"  speed="1" class="col-4"  loop autoplay></lottie-player>
+                        <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ubqfycud.json"  background="transparent"  speed="1" class="col-6"  loop autoplay></lottie-player>
                     </div>
-                    <h1 class="text service-header align col-12">Coding</h1>
+                    <h1 class="text service-header col-12">Coding</h1>
                     <p class="col-12 col-lg-12 subtext">
                         To end this journey, we come up with innovative ideas, making your dream come true. <br>
                         We work with the latest technologies to keep up to date in such a competitive enviroment.</p>
@@ -282,7 +282,7 @@
             </section>
         </div>
 
-        <section id="sobreNosotros" class="row col-12 col-lg-12">
+        <section id="sobreNosotros" class="row col-12 col-lg-11">
                 <h1 class="col-12 col-lg-12 title even" >About us/></h1>
                 <img src="img/photos/pexels-pavel-danilyuk-6340671.jpg" alt="" class="col-12 col-lg-6 sobreFoto" style="opacity: 0.5;">
                 <p class="text even col-12 col-lg-6">
@@ -293,29 +293,31 @@
         
         <section id="contacto" class="col-12 col-lg-12 row align">
                 <h1 class="col-12 col-lg-10 title odd">Contact/></h1>
-                <p class="text contact col-lg-10">We built our dream,<br>
+                <p class="text contact col-lg-10">
+                We built our dream,<br>
                 Now lets build yours. </p>
                 <form id="form" class="col-12 col-lg-10">
                     <label class="col-12 odd text contactLabel" for="name">Full name*</label>
-                    <input type="text" name="name" placeholder="Whats your name?" class="col-12 col-lg-8 inp" required>
+                    <input id="name" type="text" name="name" placeholder="Whats your name?" class="col-12 col-lg-8 inp" required>
                     <label class="col-12 odd text contactLabel" for="email">Business e-mail*</label>
-                    <input type="email" name="email" placeholder="Where should we contact you at?" class="col-12 col-lg-8 inp" required>
+                    <input id="email" type="email" name="email" placeholder="Where should we contact you at?" class="col-12 col-lg-8 inp" required>
                     <label class="col-12 odd text contactLabel" for="phone">Phone number</label>
-                    <input type="number" name="phone" placeholder="Leave us a phone number" class="col-12 col-lg-8 inp" required>
+                    <input id="phone" type="number" name="phone" placeholder="Leave us a phone number" class="col-12 col-lg-8 inp" required>
                     <label class="col-12 odd text contactLabel" for="planSeleccionado">Plan seleccionado</label>
                     <div class="col-12 row align divPlanesContacto">
-                        <input id="planSeleccionado" name="planSeleccionado" class="col-12 col-lg-8" type="hidden" value="nada">
+                        <input id="plan" id="planSeleccionado" name="planSeleccionado" class="col-12 col-lg-8" type="hidden" value="nada">
                         <div id="plan1" class="col-12 col-lg-3 planSelec align"><p>LANDING-PAGE</p></div>
                         <div id="plan2" class="col-12 col-lg-3 planSelec align"><p>FULL-PAGE</p></div>
                         <div id="plan3" class="col-12 col-lg-3 planSelec align"><p>E-COMMERCE</p></div>
                         <div id="plan4" class="col-12 col-lg-3 planSelec align"><p>CUSTOM MADE</p></div>
                     </div>
                     <label class="col-12 odd text contactLabel" for="message">Tell us about your project*</label>
-                    <textarea placeholder="Whats your dream project about?" name="message" id="" rows="3" class="col-12 col-lg-8 inp" required ></textarea>
+                    <textarea id="message" placeholder="Whats your dream project about?" name="message" id="" rows="3" class="col-12 col-lg-8 inp" required ></textarea>
                     <div class="col-12 col-lg-8 row" style="justify-content: end; margin: 0;">
                         <input type="submit" id="button" class="col-7 col-lg-6 enviar" value="Lets get in contact"><i class="fa-solid fa-arrow-right-long col-1"></i>
                     </div>
                 </form>
+                
                 <script type="text/javascript"
                 src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
@@ -346,7 +348,16 @@
     <!--EmailJS-->
     <script>
         const btn = document.getElementById('button');
-
+        const name = document.getElementById('name');
+        const email = document.getElementById('email');
+        const phone = document.getElementById('phone');
+        const message = document.getElementById('message');
+        const plan1 = document.getElementById('plan1');
+        const plan2 = document.getElementById('plan2');
+        const plan3 = document.getElementById('plan3');
+        const plan4 = document.getElementById('plan4');
+        
+        
         document.getElementById('form')
         .addEventListener('submit', function(event) {
         event.preventDefault();
@@ -361,7 +372,15 @@
                 btn.value = 'Sent';
                 setTimeout(() => {
                     btn.value = 'Lets get in contact';
-                },3000);
+                },2500);
+                name.value = '';
+                email.value = '';
+                phone.value = '';
+                message.value = '';
+                plan1.classList.remove("seleccionado");
+                plan2.classList.remove("seleccionado");
+                plan3.classList.remove("seleccionado");
+                plan4.classList.remove("seleccionado");
             }, (err) => {
             btn.value = 'Lets get in contact';
             alert(JSON.stringify(err));
