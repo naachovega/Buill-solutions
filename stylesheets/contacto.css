@@ -12,6 +12,7 @@
     border-style: none;
     outline: none;
     border: 1px solid #dddddd21;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 29px 0px;
 }
 
 .inp:focus{
@@ -40,11 +41,9 @@ input.enviar{
 
 #form{
     /* border: 1px solid #dddddd21;  */
-    margin-top: 10px;
-    padding: 25px;
+    padding-top: 15px;
     border-radius: 10px;
-    background-color: #0d1119;
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 29px 0px;
+    background-color: #17181c;
 }
 
 .divPlanesContacto{
@@ -98,5 +97,6 @@ input.enviar{
         margin-left: 10px;
         margin-right: 10px;
         padding: 20px;
+        margin-bottom: 1%;
     }
 }
