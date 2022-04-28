@@ -320,7 +320,7 @@
                 src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
                 <script type="text/javascript">
-                emailjs.init('DPH2SvZ4btnt3Iyv1')
+                    emailjs.init('GayULDD-EQHWuqHQK')
                 </script>
         </section>
 
@@ -354,11 +354,12 @@
         btn.value = 'Sending';
 
         const serviceID = 'default_service';
-        const templateID = 'template_bbmksak';
+        const templateID = 'template_iy8ztim';
 
         emailjs.sendForm(serviceID, templateID, this)
             .then(() => {
                 btn.value = 'Sent';
+
                 setTimeout(() => {
                     btn.value = 'Lets get in contact';
                 },3000);
