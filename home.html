@@ -357,7 +357,9 @@
 
         emailjs.sendForm(serviceID, templateID, this)
             .then(() => {
-            btn.value = 'Lets get in contact';
+                setTimeout(() => {
+                    btn.value = 'Lets get in contact';
+                },3000);
             }, (err) => {
             btn.value = 'Lets get in contact';
             alert(JSON.stringify(err));
