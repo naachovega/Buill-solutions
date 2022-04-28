@@ -69,10 +69,12 @@ h3.subTituloBienvenida{
 }
 .contactButton:hover{
     transition: 0.2s;
-    background-color: #ddddddaf;
-    /*
-	background-image: linear-gradient(90deg,#e43f5acf,#7C30FFcd);
-    */
+    background-image: linear-gradient(60deg, #E43F5A, #7C30FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    box-shadow: 5px 5px 7px -2px rgba(0, 0, 0, .1), -5px -5px 7px -5px rgba(0, 0, 0, .1), inset -9px -9px 12px 0px rgba(0, 0, 255, .07), inset 9px 9px 12px 0px rgba(0, 0, 0, .3)!important;
+    border: none;
 }
 
 a.contact{
