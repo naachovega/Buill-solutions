@@ -3,6 +3,10 @@
     padding-right: 0;
 }
 
+#proyectos h1{
+  text-align: start;
+}
+
 /* Prueba carrousel */
 .flickity-button {
     display: none;

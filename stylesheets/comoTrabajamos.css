@@ -3,6 +3,11 @@
     padding-top: 30px;
 }
 
+.ourWorkProcess{
+    text-align: center;
+    margin-bottom: 0;
+}
+
 .trabajos{
     display: flex;
     align-content: space-between;
@@ -10,6 +15,7 @@
     background-color: #15171d;
     padding: 15px;
     margin-bottom: 3%;
+    margin-top: 3% !important;
     margin-left: 0 !important;
     border-radius: 20px;
     transition: transform .25s, opacity .25s, width .25s, height .25s;
@@ -22,4 +28,9 @@
     #comoTrabajamos{
         justify-content: space-between;
     }     
+    .trabajos{
+        margin-top: 1% !important;
+        margin-bottom: 0;
+        width: 33% !important;
+    }
 }

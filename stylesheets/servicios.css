@@ -21,6 +21,7 @@
     height: 460px;
     padding: 15px;
     margin-bottom: 3%;
+    margin-top: 3% !important;
     margin-left: 0 !important;
     border-radius: 20px;
     transition: transform .25s, opacity .25s, width .25s, height .25s;
@@ -71,7 +72,11 @@ li{
     }
     .botton-planes{
         width: 25%;
- }
+    }
+    .planes{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 
 }
 
