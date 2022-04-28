@@ -1,8 +1,8 @@
-/*
-#contacto h1.title{
-    text-align: start;
+#contacto{
+    background-color: #17181c;
+    padding-top: 70px;
 }
-*/
+
 .inp{
     color: #fff;
     margin-top: 5px;
@@ -39,9 +39,11 @@ input.enviar{
 }
 
 #form{
-    border: 1px solid #dddddd21; 
+    /* border: 1px solid #dddddd21;  */
+    margin-top: 10px;
     padding: 25px;
     border-radius: 10px;
+    background-color: #0d1119;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 29px 0px;
 }
 
