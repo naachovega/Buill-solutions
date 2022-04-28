@@ -182,7 +182,7 @@
                         </div>   
                         <div class="col-12"> 
                         <a href="#contacto">
-                            <button class="contactButton">
+                            <button id="landingService" class="contactButton">
                                 Let's talk!
                             </button>
                         </a>
@@ -222,7 +222,7 @@
                             </div>
                         <div class="col-12"> 
                             <a href="#contacto">
-                                <button class="contactButton">
+                                <button id="ecommerceService" class="contactButton">
                                     Let's talk!
                                 </button>
                             </a>
@@ -252,7 +252,7 @@
                         </div>
                         <div class="col-12"> 
                             <a href="#contacto">
-                                <button class="contactButton">
+                                <button id="fullService" class="contactButton">
                                     Let's talk!
                                 </button>
                             </a>
@@ -271,7 +271,7 @@
                                 </p>
                             </div>
                             <a href="#contacto" class="col-12">
-                                <button class="contactButton">
+                                <button id="customService" class="contactButton">
                                     Let's talk!
                                 </button>
                             </a>
@@ -303,10 +303,10 @@
                     <label class="col-12 odd text contactLabel" for="planSeleccionado">Plan seleccionado</label>
                     <div class="col-12 row align divPlanesContacto">
                         <input id="planSeleccionado" name="planSeleccionado" class="col-12" type="hidden" value="nada">
-                        <div id="plan1" class="planSelec align"><p>ONE-PAGE</p></div>
-                        <div id="plan2" class="planSelec align"><p>FULL-PAGE</p></div>
-                        <div id="plan3" class="planSelec align"><p>E-COMMERCE</p></div>
-                        <div id="plan4" class="planSelec align"><p>CUSTOM MADE</p></div>
+                        <div id="plan1" class="col-12 col-lg-3 planSelec align"><p>LANDING-PAGE</p></div>
+                        <div id="plan2" class="col-12 col-lg-3 planSelec align"><p>FULL-PAGE</p></div>
+                        <div id="plan3" class="col-12 col-lg-3 planSelec align"><p>E-COMMERCE</p></div>
+                        <div id="plan4" class="col-12 col-lg-3 planSelec align"><p>CUSTOM MADE</p></div>
                     </div>
                     <label class="col-12 odd text contactLabel" for="message">Tell us about your project*</label>
                     <textarea placeholder="Whats your dream project about?" name="message" id="" rows="3" class="col-12 inp" required ></textarea>
@@ -357,10 +357,9 @@
 
         emailjs.sendForm(serviceID, templateID, this)
             .then(() => {
-            btn.value = 'Sent';
-            alert('Sent!');
+            btn.value = 'Lets get in contact';
             }, (err) => {
-            btn.value = 'Sent';
+            btn.value = 'Lets get in contact';
             alert(JSON.stringify(err));
             });
         });
@@ -369,7 +368,9 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 <script src="./javascripts/index.js"></script>
+<script src="./javascripts/botonesServicios.js"></script>
 
 <!--Flickity-->
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
