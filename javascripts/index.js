@@ -40,7 +40,7 @@ window.addEventListener("load", function(){
         btn.value = 'Sending';
 
         const serviceID = 'default_service';
-        const templateID = 'template_esegu74';
+        const templateID = 'template_jav4n2e';
 
         emailjs.sendForm(serviceID, templateID, this)
             .then(() => {
