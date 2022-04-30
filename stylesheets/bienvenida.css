@@ -30,14 +30,15 @@ h1.tituloBienvenida{
     text-align: center;
     color: #fff;
     font-size: 46px;
-    margin-bottom: 10 !important;
-    animation: fluido 30s ease-in-out infinite;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    margin-bottom: 10px !important;
+    animation: fluido 10s ease-in-out infinite;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab );
     /*background-image: linear-gradient(60deg, #E43F5A, #7C30FF);*/
     background-size: 300%;
     -webkit-background-clip: text;
         background-clip: text;
     -webkit-text-fill-color: transparent;
+    height: 55px;
 }
 @keyframes fluido {
     0% { background-position: 0 50% }
@@ -53,6 +54,17 @@ h3.subTituloBienvenida{
     font-weight: 200;
     font-size: 26px;
     margin-bottom: 20px;
+}
+
+@media (max-width:485px){
+    h3.subTituloBienvenida{
+        font-size: 20px;
+    }
+
+    h1.tituloBienvenida{
+        font-size: 36px;
+        height: 110px;
+    }
 }
 
 .contactButton{
@@ -80,17 +92,6 @@ h3.subTituloBienvenida{
 a.contact{
     text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* EFECTO WAVE CSS SIN USAR*/
 section#bienvenida{
@@ -146,4 +147,16 @@ section .wave span:nth-child(3)
     {
       transform: translate(-50%,-85%) rotate(360deg);
     }
+}
+
+.tituloInicio{
+    z-index: 5;
+    text-align: center;
+    color: #fff;
+    font-size: 46px;
+    margin-bottom: 10px !important;
+    color: #ddd;
+    /*background-image: linear-gradient(60deg, #E43F5A, #7C30FF);*/
+    background-size: 300%;
+    height: 55px;
 }
