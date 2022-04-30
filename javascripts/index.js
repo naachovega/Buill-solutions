@@ -190,7 +190,7 @@ $(document).ready(function() {
   
     "Choose your language:",
   
-    "Elija tu idioma:",
+    "Elija su idioma:",
   ];
   
   // start typing effect

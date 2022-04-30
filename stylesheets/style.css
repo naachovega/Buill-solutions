@@ -167,5 +167,6 @@ text-align: right;
 }
 
 .language{
-  padding: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
