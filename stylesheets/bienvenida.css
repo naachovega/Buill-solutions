@@ -31,7 +31,7 @@ h1.tituloBienvenida{
     color: #fff;
     font-size: 46px;
     margin-bottom: 10px !important;
-    animation: fluido 10s ease-in-out infinite;
+    animation: fluido 20s ease-in-out infinite;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab );
     /*background-image: linear-gradient(60deg, #E43F5A, #7C30FF);*/
     background-size: 300%;
@@ -159,4 +159,8 @@ section .wave span:nth-child(3)
     /*background-image: linear-gradient(60deg, #E43F5A, #7C30FF);*/
     background-size: 300%;
     height: 55px;
+}
+
+.gif{
+    height: 190px
 }
