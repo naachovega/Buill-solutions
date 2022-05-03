@@ -109,6 +109,31 @@ nav{
   font-size: 16px;
 }
 
+h2.links{
+  justify-content: start;
+}
+
+.mailto{
+  padding-top: 20px;
+}
+
+.mail{
+  text-decoration: none;
+  color: #dddddd;
+}
+
+@media (min-width: 1024px){
+  h2.links{
+    justify-content: center;
+  }
+  .links a{
+    justify-content: center;
+  }
+  .mail{
+    text-align: center;
+  }
+}
+
 .links a{
   text-decoration: none;
   font-size: 42px;

@@ -46,15 +46,6 @@ div .violeta.cerrado {
 
 }
 
-.mailto{
-    padding-top: 20px;
-}
-
-.mail{
-  text-decoration: none;
-  color: #dddddd;
-}
-
 
 .menu-mobile #bt-menu-mobile {
   outline:none;cursor:pointer; border: none; background: none; width: 40px; float: right; position: relative; height: 26px;z-index: 2000;}
