@@ -105,6 +105,11 @@ nav{
   color: #dddddd;
 }
 
+.idioma a:hover{
+  text-decoration: none;
+  color: #dddddd;
+}
+
 .idioma span{
   font-size: 16px;
 }

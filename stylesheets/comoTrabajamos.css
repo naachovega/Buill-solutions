@@ -11,7 +11,7 @@
 .trabajos{
     display: flex;
     align-content: space-between;
-    height: 340px;
+    height: auto;
     background-color: #15171d;
     padding: 15px;
     margin-bottom: 3%;
