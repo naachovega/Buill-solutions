@@ -1,0 +1,30 @@
+.inicioGif{
+    position: absolute;
+    z-index: 1;
+    top: 8.5%;
+}
+
+.tituloInicio{
+    z-index: 5;
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    color: #ddd;
+    /*background-image: linear-gradient(60deg, #E43F5A, #7C30FF);*/
+    background-size: 300%;
+    height: 55px;
+    margin-bottom: 90px;
+}
+
+@media (min-width: 1024px){
+    .inicioGif{
+        position: absolute;
+        width: 45% !important;
+        z-index: 1;
+        top: 0%;
+    }
+    .tituloInicio{
+        font-size: 46px;
+        margin-bottom: 10px;
+    }
+}

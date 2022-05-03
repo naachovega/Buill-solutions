@@ -14,7 +14,11 @@
   ::selection {
     color:  #f43f5a;
     background: none;
-  }    
+  }
+  
+  a{
+    text-decoration: none !important;
+  }
 
 *{
   scroll-behavior: smooth !important;
@@ -138,9 +142,8 @@ text-align: right;
     text-align: center !important;
     width: 200px;
     z-index: 5;
-    border-style: none;
-    border: 1px solid #dddddd65;
-    background: transparent;
+    border: 1px solid #15171d;
+    background: #15171d;
     color: #dddddd65;
     text-align: end;
     font-weight: bold;
@@ -153,8 +156,9 @@ text-align: right;
   color:#E43F5Aaf;
   -webkit-background-clip: text;
   background-clip: text;
-  box-shadow: 5px 5px 7px -2px rgba(0, 0, 0, .1), -5px -5px 7px -5px rgba(0, 0, 0, .1), inset -9px -9px 12px 0px rgba(0, 0, 255, .07), inset 9px 9px 12px 0px rgba(0, 0, 0, .3)!important;
+  box-shadow: 5px 5px 7px -2px rgba(0, 0, 0, .1), -5px -5px 7px -5px rgba(0, 0, 0, .1), inset -9px -9px 12px 0px rgba(134, 1, 1, 0.07), inset 9px 9px 12px 0px rgba(0, 0, 0, .3)!important;
   border: 1px solid #dddddd69;
+  background: #15171d;
 }
 
 .english:hover{
@@ -164,9 +168,15 @@ text-align: right;
   background-clip: text;
   box-shadow: 5px 5px 7px -2px rgba(0, 0, 0, .1), -5px -5px 7px -5px rgba(0, 0, 0, .1), inset -9px -9px 12px 0px rgba(0, 0, 255, .07), inset 9px 9px 12px 0px rgba(0, 0, 0, .3)!important;
   border: 1px solid #dddddd69;
+  background: #15171d;
 }
 
 .language{
   padding-top: 10px;
   padding-bottom: 10px;
+  z-index: 5
+}
+
+.bandera{
+  margin-right: 3px;
 }

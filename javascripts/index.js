@@ -188,9 +188,9 @@ $(document).ready(function() {
   
   const words = [
   
-    "Choose your language:",
+    "Choose your language",
   
-    "Elija su idioma:",
+    "Elija su idioma",
   ];
   
   // start typing effect
