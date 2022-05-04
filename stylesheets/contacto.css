@@ -89,16 +89,15 @@ input.enviar{
 
 @media (min-width: 1024px) {
     .divPlanesContacto{
-        justify-content: start;
-        padding: 0 !important;
+        padding-left: 1rem !important;
       }
     #plan1{
       margin-left: 0;
     }
     .planSelec{
-        width: 21% !important;
-        margin-left: 10px;
-        margin-right: 10px;
+        width: 22% !important;
+        margin-left: 5px;
+        margin-right: 5px;
         padding: 20px;
         margin-bottom: 1%;
     }
