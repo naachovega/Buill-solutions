@@ -46,6 +46,11 @@ div .violeta.cerrado {
 
 }
 
+.menu-mobile #bt-menu-mobile.close-bt-hamburguer{
+    position: fixed;
+    top: 5%;
+    right: 7%;
+}
 
 .menu-mobile #bt-menu-mobile {
   outline:none;cursor:pointer; border: none; background: none; width: 40px; float: right; position: relative; height: 26px;z-index: 2000;}
