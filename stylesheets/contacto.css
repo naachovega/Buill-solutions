@@ -39,6 +39,7 @@ input.enviar{
 .contactLabel{
     padding-top: 5px;
     padding-bottom: 5px;
+    padding-left: 0 !important;
 }
 
 #form{
@@ -51,6 +52,7 @@ input.enviar{
 .divPlanesContacto{
   justify-content: space-between;
   margin: 0px !important;
+  padding: 0 !important;
 }
 
 .planSelec{
