@@ -8,7 +8,6 @@ window.addEventListener("load", function(){
 		
 	});
 
-
   $('.main-carousel').flickity({
     // options
     cellAlign: 'left',
@@ -20,6 +19,8 @@ window.addEventListener("load", function(){
     $(".violeta").toggleClass("abierto");
 		$(".negro").toggleClass("abierto");
   });
+
+  
 
 
   const btn = document.getElementById('button');

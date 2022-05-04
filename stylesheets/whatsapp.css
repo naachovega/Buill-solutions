@@ -19,13 +19,13 @@
 	transition: 0.3s;
 }
 
-.float div{
+div.sombraWpp{
 	width: 60%;
-    background: radial-gradient(rgba(0, 0, 0, 0.3), transparent 80%);
+    background: radial-gradient(rgba(0, 0, 0, 0.6), transparent 80%);
     height: 2vh;
     border-radius: 30px;
     margin-left: 20%;
-	margin-top: 4px;
+	margin-top: 3px;
 }
 
 .my-float{
@@ -48,6 +48,28 @@
 	  transform: translateY(0);
 	}
   }
+
+  .float p{
+	  display: flex;
+	  position: absolute;
+	  position: absolute;
+	  background: rgba(100,100,100,0.3);
+	  right: 110%;
+	  bottom: -12%;
+	  font-size: 14px;
+	  border-radius: 3px;
+	  padding-right: 3px;
+	  padding-left: 3px;
+	  animation: smooth 18s ease-in infinite;
+	  
+  }
+
+  @keyframes smooth {
+    0% { opacity: 0;}
+	15% { opacity: 1;}
+	30% { opacity: 0;}
+    100% { opacity: 0;}
+}
 
 @media(min-width: 1024px){
 	.float{
