@@ -19,10 +19,35 @@
 	transition: 0.3s;
 }
 
+.float div{
+	width: 60%;
+    background: radial-gradient(rgba(0, 0, 0, 0.3), transparent 80%);
+    height: 2vh;
+    border-radius: 30px;
+    margin-left: 20%;
+	margin-top: 4px;
+}
+
 .my-float{
 	margin-top:10px;
 	font-size: 40px !important;
 }
+
+.flying {
+	animation: flying 4s infinite;
+  }
+  
+  @keyframes flying {
+	0% {
+	  transform: translateY(0);
+	}
+	50% {
+	  transform: translateY(5px);
+	}
+	100% {
+	  transform: translateY(0);
+	}
+  }
 
 @media(min-width: 1024px){
 	.float{
