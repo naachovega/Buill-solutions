@@ -128,7 +128,22 @@ h2.links{
   color: #dddddd;
 }
 
+.mobile{
+  display: flex !important;
+}
+
+.desk{
+  display: none !important;
+}
+
 @media (min-width: 1024px){
+  .mobile{
+    display: none !important;
+  }
+  
+  .desk{
+    display: flex !important;
+  }
   h2.links{
     justify-content: center;
   }
@@ -146,6 +161,7 @@ h2.links{
   -webkit-text-stroke: 1px #dddddd;
   font-weight: 600;
   -webkit-text-fill-color: transparent;
+  font-family: 'Lato', sans-serif;
 }
 
 .links a:hover{
