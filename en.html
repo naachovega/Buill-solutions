@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="./stylesheets/contacto.css">
     <link rel="stylesheet" href="./stylesheets/whatsapp.css">
     <link rel="stylesheet" href="./stylesheets/bienvenida.css">
+    <link rel="stylesheet" href="./stylesheets/carrouselAboutUs.css">
+
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
@@ -304,18 +306,33 @@
                         Get to know us better and lets chat about your dreams!
                     </p>
                 </div>
-                <div class="col-lg-12 align">
-                    <div class="col-12 col-lg-6 align row aboutContainer">
-                        <div class="fotoAbout col-8 col-lg-4">
-                            <p class="col-12">Federico Colombo</p>
+                <div class="col-lg-12 row align">
+                    <div class="col-12 col-lg-7 align row aboutContainer">
+                        <div id="carouselExampleControls" class="carousel slide align" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+
+                          <div class="carousel-item active row align">
+                            <img src="./img/photos/fede.jpg" class="col-12 col-lg-4 fotoEquipo" alt="">
+                            <div class="col-12 col-lg-6 align row">
+                                <h2 class="col-12 nombreEquipo">Federico Colombo</h3>
+                                <h4 class="col-12 puestoEquipo">Co-founder</h6>
+                                <p class="descTeam col-12">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque officiis, quas sequi voluptatum, consectetur est sint architecto cum esse harum eveniet illum perspiciatis? Blanditiis neque quam velit sapiente quaerat ipsum!</p>
+                            </div>
+                          </div>
+
+                          
+                          
                         </div>
-                        <div class="col-12 col-lg-6 align row">
-                            <h3 class="col-12">Federico Colombo</h3>
-                            <h6 class="col-12">Co-Funder</h6>
-                            <p class="descTeam col-12">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque officiis, quas sequi voluptatum, consectetur est sint architecto cum esse harum eveniet illum perspiciatis? Blanditiis neque quam velit sapiente quaerat ipsum!</p>
-                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                    
+                </div>
             </section>
             
             
