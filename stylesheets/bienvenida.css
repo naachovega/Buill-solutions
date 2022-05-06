@@ -29,7 +29,7 @@ h1.tituloBienvenida{
     z-index: 5;
     text-align: center;
     color: #fff;
-    font-size: 46px;
+    font-size: 60px;
     margin-bottom: 10px !important;
     animation: fluido 20s ease-in-out infinite;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab );
@@ -38,7 +38,7 @@ h1.tituloBienvenida{
     -webkit-background-clip: text;
         background-clip: text;
     -webkit-text-fill-color: transparent;
-    height: 55px;
+    height: auto;
 }
 @keyframes fluido {
     0% { background-position: 0 50% }
@@ -48,12 +48,10 @@ h1.tituloBienvenida{
 
 h3.subTituloBienvenida{
     z-index: 5;
-    margin-top: 2px;
     text-align: center;
-    color: #fff;
-    font-weight: 200;
+    color: #ddd;
     font-size: 26px;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .contactButton{
@@ -68,14 +66,17 @@ h3.subTituloBienvenida{
     margin-top: 30px;
     padding: 8px;
 }
+
 .contactButton:hover{
-    transition: 0.2s;
     background-image: linear-gradient(60deg, #E43F5A, #7C30FF);
+    transition: 0.2s;
+    /*
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    box-shadow: 5px 5px 7px -2px rgba(0, 0, 0, .1), -5px -5px 7px -5px rgba(0, 0, 0, .1), inset -9px -9px 12px 0px rgba(0, 0, 255, .07), inset 9px 9px 12px 0px rgba(0, 0, 0, .3)!important;
     border: 1px solid transparent;
+    */
+    box-shadow: 5px 5px 7px -2px rgba(0, 0, 0, .1), -5px -5px 7px -5px rgba(0, 0, 0, .1), inset -9px -9px 12px 0px rgba(0, 0, 255, .07), inset 9px 9px 12px 0px rgba(0, 0, 0, .3)!important;
 }
 
 a.contact{

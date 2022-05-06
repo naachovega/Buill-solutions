@@ -8,7 +8,7 @@
 }
 
 .subtext{
-    font-size: 14px;
+    font-size: 1.2rem;
     text-align: start;
     color: #dddddd;
     padding-bottom: 15px;
@@ -91,7 +91,9 @@ li{
         justify-content: space-between;
    }
 
-    
+   .subtext{
+    font-size: 1rem;
+}
 
    .planes{
     height: 500px;
@@ -100,6 +102,10 @@ li{
 
 
 @media (min-width:320px) and (max-width:395px){
+
+    .subtext{
+        font-size: 0.8rem;
+    }
 
     .planes{
         height: 600px;

@@ -3,7 +3,7 @@
     rojo #E43F5A
     violeta #7C30FF
     fondo oscuro #071C2C
-    fondo azul mas oscuro #0d1119
+    fondo azul mas oscuro #0d1119 / #15171d
 */
 
   ::webkit-selection {
@@ -40,11 +40,6 @@ footer{
   margin: 0 !important;
 }
 
-section{
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-}
-
 /*
 HEADER STICKY (ROMPE)
 header.header-outer{
@@ -79,7 +74,7 @@ h1.coming{
 
 p.rights{
   opacity: 0.3;
-  color: #dddddd;
+  color: #888;
   text-align: center;
   font-style: italic;
 }
@@ -153,6 +148,13 @@ h2.links{
   .mail{
     text-align: center;
   }
+
+}
+
+@media (max-width:1024px){
+  .text{
+    font-size: 1.3rem;
+  }
 }
 
 .links a{
@@ -170,6 +172,8 @@ h2.links{
 }
 
 .title{
+  padding: 2.5rem;
+  font-size: 56px;
   background-image: linear-gradient(60deg, #E43F5A, #7C30FF);
   -webkit-background-clip: text;
   background-clip: text;
@@ -178,7 +182,7 @@ h2.links{
   text-align: center;
 }
 .text{
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: start;
   color: #dddddd;
   padding-bottom:5px;

@@ -5,6 +5,7 @@
   }
   
   .carousel-item.active{
+    margin: 0.8rem;
     display: flex !important;
   }
   
@@ -27,9 +28,9 @@
 }
 
 .fotoEquipo{
-    border-radius: 10px;
+    border-radius: 2rem;
     margin-top: 20px !important;
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .descTeam{
@@ -37,10 +38,11 @@
 }
 
 .aboutContainer{
+
   box-shadow: rgba(0, 0, 0, 0.6) 0px 7px 29px 0px;
   background-color: #15171d;
   border-radius: 20px;
-  height: 90%;
-  margin-top: 40px;
+  height: 100%;
+  margin-top: 4rem;
   justify-content: space-around;
 }
