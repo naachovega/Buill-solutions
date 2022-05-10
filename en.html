@@ -26,10 +26,14 @@
 
     <!--Flickity-->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    
     <!--Embla Carrousel-->
     <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
     <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
     <script src="https://unpkg.com/embla-carousel-autoplay/embla-carousel-autoplay.umd.js"></script>
+
+    <!--Slick-->
+    <link rel="stylesheet" href="./stylesheets/slick.css">
 
     <!--Vest form validation-->
     <script src="https://unpkg.com/vest@4/dist/umd/vest.production.js"></script>
@@ -310,44 +314,32 @@
                         Get to know us better and lets chat about your dreams!
                     </p>
                 </div>
-                <div class="col-lg-12 row align">
-                    <div class="col-12 col-lg-7 align row aboutContainer">
-                        <div id="carouselExampleControls" class="carousel slide align" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-
-                          <div class="carousel-item active row align">
-                            <img src="./img/photos/fede.jpg" class="col-12 col-lg-4 fotoEquipo" alt="">
+                <div class="single-item col-12 col-lg-6">
+                    <div>
+                        <div class="row align">
+                            <img src="./img/photos/fede.jpg" class="col-11 col-lg-4 fotoEquipo" alt="">
                             <div class="col-12 col-lg-6 align row">
                                 <h2 class="col-12 nombreEquipo">Federico Colombo</h3>
                                 <h4 class="col-12 puestoEquipo">Co-founder</h6>
                                 <p class="descTeam col-12">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque officiis, quas sequi voluptatum, consectetur est sint architecto cum esse harum eveniet illum perspiciatis? Blanditiis neque quam velit sapiente quaerat ipsum!</p>
                             </div>
-                          </div>
-
-                          <div class="carousel-item row align">
-                            <img src="./img/photos/fede.jpg" class="col-12 col-lg-4 fotoEquipo" alt="">
+                        </div>
+                    </div>
+                
+                    <div>
+                        <div class="row align">
+                            <img src="./img/photos/fede.jpg" class="col-11 col-lg-4 fotoEquipo" alt="">
                             <div class="col-12 col-lg-6 align row">
                                 <h2 class="col-12 nombreEquipo">Nacho Vega</h3>
                                 <h4 class="col-12 puestoEquipo">Co-founder</h6>
                                 <p class="descTeam col-12">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque officiis, quas sequi voluptatum, consectetur est sint architecto cum esse harum eveniet illum perspiciatis? Blanditiis neque quam velit sapiente quaerat ipsum!</p>
                             </div>
-                          </div>
-
-                          
-                          
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
                     </div>
                 </div>
             </section>
-        
+
+
         <section  id="contacto" class="col-12 col-lg-12 row align">
                 <h1 class="col-12 col-lg-7 title">Contact/></h1>
                 <p class="text contact col-lg-7 align">
@@ -405,10 +397,23 @@
     <script>
         AOS.init();
     </script>
-</div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <!--Slick-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript">
+        $('.single-item').slick({
+            slidesToShow: 1,
+            prevArrow: false,
+            nextArrow: false,
+            
+        });
+      </script>
+
+</div>
 
 <script src="./javascripts/index.js"></script>
 <script src="./javascripts/botonesServicios.js"></script>
