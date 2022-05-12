@@ -25,10 +25,11 @@
     box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 29px 0px;
  }
 
- @media (min-width: 1024px) {
-    #comoTrabajamos{
-        justify-content: space-between;
-    }     
+ #comoTrabajamos .text{
+     margin-bottom: 30px;
+ }
+
+ @media (min-width: 1024px) {   
     .trabajos{
         margin-top: 1% !important;
         margin-bottom: 0;
