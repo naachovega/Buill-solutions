@@ -22,18 +22,19 @@
     padding: 0 !important;
 }*/
 
-
+/*
 #sobreNosotros{
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 0 !important;
 }
-
+*/
 .single-item{
     margin-top: 20px !important;
 }
 
 .nombreEquipo{
+    text-align: center;
     color: white;
 }
 .puestoEquipo{
@@ -42,6 +43,7 @@
   background-clip: text;
   color: transparent;
   font-weight: 400;
+  text-align: center;
 }
 
 .fotoEquipo{
@@ -71,8 +73,11 @@
     #sobreNosotros
     {
         align-content: center;
-        padding-top: 120px !important;
+        height: 800px !important;
+        /*
+        margin-top: 120px;
         margin-bottom: 120px;
+        */
     }
     .sobreFoto{
         width: 40%;

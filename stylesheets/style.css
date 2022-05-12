@@ -10,15 +10,19 @@
     color:  #f43f5a;
     background: none;
   }
-  
-  ::selection {
+
+  .emptySpace{
+    height: 100px;
+  }
+
+::selection {
     color:  #f43f5a;
     background: none;
-  }
+}
   
-  a{
-    text-decoration: none !important;
-  }
+a{
+  text-decoration: none !important;
+}
 
 *{
   scroll-behavior: smooth !important;
@@ -31,6 +35,7 @@
 }
 
 header{
+  height: 12vh;
   padding-top: 10px;
   background-color: #15171d;
 }
@@ -151,11 +156,6 @@ h2.links{
 
 }
 
-@media (max-width:1024px){
-  .text{
-    font-size: 1.3rem;
-  }
-}
 
 .links a{
   text-decoration: none;
@@ -178,11 +178,18 @@ h2.links{
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  font-weight: 400;
+  font-weight: 750;
   text-align: center;
 }
+
+@media (min-width:1204px) {
+  .text{
+    font-size: 26px;
+  }
+}
+
 .text{
-  font-size: 1.5rem;
+  font-size: 21px;
   text-align: start;
   color: #dddddd;
   padding-bottom:5px;
