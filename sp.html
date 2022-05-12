@@ -44,6 +44,9 @@
     <!-- Aos -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    <!--Slick-->
+    <link rel="stylesheet" href="./stylesheets/slick.css">
+
     <link rel="shortcut icon" href="favicon2.ico" type="image/x-icon"/>
 
     <title>Buill Solutions</title>
@@ -296,13 +299,38 @@
             </section>
         </div>
 
-        <section id="sobreNosotros" class="row col-12 col-lg-10">
-                <h1 class="col-12 col-lg-7 title even" >Sobre Nosotros/></h1>
-                <!--<img src="img/photos/pexels-pavel-danilyuk-6340671.jpg" alt="" class="col-12 col-lg-6 sobreFoto" style="opacity: 0.5;">-->
-                <p class="text even col-12 col-lg-7">
+        <section class="col-lg-12 align row" id="sobreNosotros" class="row col-12 col-lg-10 align">
+            <div>
+                <h1 class="col-12 col-lg-12 title " >About us/></h1>
+                <p class="text col-12 col-lg-12" style="text-align: center;">
                     Based in Buenos Aires, Buill was founded by dreamers with big intentions: <br>
                     To help businesses digitalize their brands and achieve their goals. <br>
-                    Get to know us better and lets chat about your dreams!</p>
+                    Get to know us better and lets chat about your dreams!
+                </p>
+            </div>
+            <div class="single-item col-12 col-lg-6">
+                <div>
+                    <div class="row align">
+                        <img src="./img/photos/fede.jpg" class="col-11 col-lg-4 fotoEquipo" alt="">
+                        <div class="col-12 col-lg-6 align row">
+                            <h2 class="col-12 nombreEquipo">Federico Colombo</h3>
+                            <h4 class="col-12 puestoEquipo">Co-founder</h6>
+                            <p class="descTeam col-12">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque officiis, quas sequi voluptatum, consectetur est sint architecto cum esse harum eveniet illum perspiciatis? Blanditiis neque quam velit sapiente quaerat ipsum!</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div>
+                    <div class="row align">
+                        <img src="./img/photos/fede.jpg" class="col-11 col-lg-4 fotoEquipo" alt="">
+                        <div class="col-12 col-lg-6 align row">
+                            <h2 class="col-12 nombreEquipo">Nacho Vega</h3>
+                            <h4 class="col-12 puestoEquipo">Co-founder</h6>
+                            <p class="descTeam col-12">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque officiis, quas sequi voluptatum, consectetur est sint architecto cum esse harum eveniet illum perspiciatis? Blanditiis neque quam velit sapiente quaerat ipsum!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="contacto" class="col-12 col-lg-12 row align">
@@ -361,6 +389,21 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <!--Slick-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript">
+        $('.single-item').slick({
+            slidesToShow: 1,
+            prevArrow: false,
+            nextArrow: false,
+            
+        });
     </script>
 </div>
 
