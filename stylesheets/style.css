@@ -6,6 +6,10 @@
     fondo azul mas oscuro #0d1119 / #15171d
 */
 
+footer{
+  height: 15vh;
+}
+
   ::webkit-selection {
     color:  #f43f5a;
     background: none;
@@ -201,7 +205,6 @@ h2.links{
 
 .contact{
   font-weight: bold;
-  text-align: left !important;
   margin: 0;
 }
 .odd{
