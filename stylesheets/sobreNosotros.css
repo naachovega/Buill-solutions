@@ -126,6 +126,16 @@
     opacity: 1 !important;
 }
 
+.linkdinButton{
+    background-color: #15171d;
+    border: none;
+}
+
+.team{
+    height: 200px;
+}
+
+
 @media (min-width: 1024px) {
 
     .cardAbout{
@@ -160,11 +170,8 @@
     }
 }
 
-.linkdinButton{
-    background-color: #15171d;
-    border: none;
-}
-
-.team{
-    height: 200px;
+@media (min-width: 1400px) {
+    .team3{
+        height: 380px !important;
+    }
 }
