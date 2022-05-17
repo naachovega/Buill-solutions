@@ -36,3 +36,7 @@
         width: 33% !important;
     }
 }
+
+.workCards {
+    justify-content: space-between;
+}
