@@ -72,7 +72,7 @@
 }
 
 .team3{
-    height: 533px;
+    height: 577px;
 }
 
 .fa-pen-ruler{
@@ -85,24 +85,68 @@
     margin-bottom: 25px;
 }
 
+.fa-linkedin{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    background: #0e76a8;
+    padding: 4px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+.divValores{
+    cursor: pointer;
+    opacity: 0.2;
+}
+
+.valoresImg{
+    width: 70% !important;
+    margin: 60px 0px 10px 0px !important;
+}
+
+.valoresTitle{
+    text-align: center;
+    color: white;
+}
+
+.textValores{
+    margin: 10px 0px 60px 0px !important;
+    font-size: 19px;
+    text-align: center;
+    color: #dddddd;
+    padding-bottom:5px;
+    font-weight: 300;
+    display: none;
+}
+
+.mostrar{
+    display: flex;
+    opacity: 1 !important;
+}
+
 @media (min-width: 1024px) {
     .team3{
         height: 380px;
     }
-    #sobreNosotros
+    /*#sobreNosotros
     {
-        /*
+        
         align-content: center;
         height: 800px !important;
         margin-top: 120px;
         margin-bottom: 120px;
-        */
-    }
+        
+    }*/
     .sobreFoto{
         width: 40%;
         padding: 0 !important;
     }
     .fotoEquipo{
         margin-left: 0;
+    }
+
+    .valoresImg{
+        width: 60% !important;
     }
 }

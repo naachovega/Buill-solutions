@@ -270,13 +270,32 @@
             </section>
             <div class="emptySpace"></div>
             <section class="col-lg-12 align row" id="sobreNosotros" class="row col-12 col-lg-10 align">
-                <div>
-                    <h1 class="col-12 col-lg-12 title " >About us/></h1>
-                    <p class="text col-12 col-lg-12" style="text-align: center;">
+                <div class="col-12 row align">
+                    <h1 class="col-12 col-lg-7 title " >About us/></h1>
+                    <p class="text col-12 col-lg-7" style="text-align: center;">
                         Based in Buenos Aires, Buill was founded by dreamers with big intentions: <br>
                         To help businesses digitalize their brands and achieve their goals. <br>
                         Get to know us better and lets chat about your dreams!
                     </p>
+                </div>
+                <div class="col-12 col-lg-4 align" style="justify-content: space-around">
+                    <div class="col-4 col-lg-3 align row divValores mostrar" id="mision">
+                        <img src="./img/photos/mision.png" alt="" class="valoresImg col-2 align">
+                        <p class="col-12 valoresTitle">Mission</p>
+                    </div>
+                    <div class="col-4 col-lg-3 align row divValores" id="vision">
+                        <img src="./img/photos/vision.png" alt="" class="valoresImg align">
+                        <p class="col-12 valoresTitle">Vision</p>
+                    </div>
+                    <div class="col-4 col-lg-3 align row divValores" id="valores">
+                        <img src="./img/photos/valores.png" alt="" class="valoresImg align">
+                        <p class="col-12 valoresTitle">Values</p>
+                    </div>
+                </div>
+                <div class="col-12 align">
+                    <p class="col-12 col-lg-5 textValores mostrar" id="misionT">misionT ipsum dolor sit amet consectetur adipisicing elit. Incidunt eveniet, quia obcaecati sequi perspiciatis aliquid et ipsa ea doloribus animi, aut hic illum labore!.</p>
+                    <p class="col-12 col-lg-5 textValores" id="visionT">visionT ipsum dolor sit amet consectetur adipisicing elit. Beatae possimus deserunt aliquid nesciunt placeat, sit maxime laudantium soluta cupiditate magni. Blanditiis reprehenderit corporis.</p>
+                    <p class="col-12 col-lg-5 textValores" id="valoresT">valoresT ipsum dolor sit amet consectetur adipisicing elit. Facilis incidunt id tempore totam fugit architecto, assumenda molestias ab pariatur. Perferendis maiores officia numquam beatae.</p>
                 </div>
                 <div class="single-item col-12 col-lg-6">
                     <div>
@@ -285,7 +304,8 @@
                             <div class="col-12 col-lg-6 align row">
                                 <h2 class="col-12 nombreEquipo">Federico Colombo</h3>
                                 <h4 class="col-12 puestoEquipo">Co-founder</h6>
-                                <p class="descTeam">Technology & Research</p>
+                                <p class="descTeam col-12">Technology & Research</p>
+                                <a href="https://www.linkedin.com/in/federicocolombo1/" target="_blank" class="col-12 align"><i class="fa-brands fa-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -297,6 +317,7 @@
                                 <h2 class="col-12 nombreEquipo">Nacho Vega</h3>
                                 <h4 class="col-12 puestoEquipo">Co-founder</h6>
                                 <p class="descTeam">Management & Business</p>
+                                <a href="https://www.linkedin.com/in/federicocolombo1/" target="_blank" class="col-12 align"><i class="fa-brands fa-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -326,7 +347,7 @@
                     <label class="col-12 col-lg-7 odd text contactLabel" for="email">Business e-mail*</label>
                     <input id="email" type="email" name="email" placeholder="Where should we contact you at?" class="col-12 col-lg-7 inp" required>
                     <label class="col-12 col-lg-7 odd text contactLabel" for="phone">Phone number</label>
-                    <input id="phone" type="number" name="phone" placeholder="Leave us a phone number" class="col-12 col-lg-7 inp" required>
+                    <input id="phone" type="number" name="phone" placeholder="Leave us a phone number (optional)" class="col-12 col-lg-7 inp">
                     <label class="col-12 col-lg-7 odd text contactLabel" for="planSeleccionado">Choose your site</label>
                     <div class="col-12 col-lg-7 row align divPlanesContacto">
                         <input id="planSeleccionado" name="planSeleccionado" class="col-12 col-lg-7" type="hidden" value="nada">
@@ -335,8 +356,8 @@
                         <div id="plan3" class="col-12 col-lg-3 planSelec align"><p>E-COMMERCE</p></div>
                         <div id="plan4" class="col-12 col-lg-3 planSelec align"><p>CUSTOM MADE</p></div>
                     </div>
-                    <label class="col-12 col-lg-7 odd text contactLabel" for="message">Tell us about your project*</label>
-                    <textarea id="message" placeholder="Whats your dream project about?" name="message" id="" rows="3" class="col-12 col-lg-7 inp" required ></textarea>
+                    <label class="col-12 col-lg-7 odd text contactLabel" for="message">Tell us about your project</label>
+                    <textarea id="message" placeholder="Whats your dream project about? (optional)" name="message" id="" rows="3" class="col-12 col-lg-7 inp" ></textarea>
                     <div class="col-12 col-lg-7 row" style="justify-content: end; margin: 0;">
                         <input type="submit" id="button" class="col-7 col-lg-6 enviar" value="Lets get in contact"><i class="fa-solid fa-arrow-right-long col-1"></i>
                     </div>
@@ -394,6 +415,7 @@
 
 <script src="./javascripts/index.js"></script>
 <script src="./javascripts/botonesServicios.js"></script>
+<script src="./javascripts/valores.js" ></script>
 
 <!--Flickity-->
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
