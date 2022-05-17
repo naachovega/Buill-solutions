@@ -72,7 +72,7 @@
 }
 
 .team3{
-    height: 577px;
+    height: 623px;
 }
 
 .fa-pen-ruler{
@@ -92,7 +92,6 @@
     background: #0e76a8;
     padding: 4px;
     border-radius: 2px;
-    margin-bottom: 20px;
 }
 
 .divValores{
@@ -111,6 +110,7 @@
 }
 
 .textValores{
+    transition: 0.7s;
     margin: 10px 0px 60px 0px !important;
     font-size: 19px;
     text-align: center;
@@ -121,13 +121,19 @@
 }
 
 .mostrar{
+    transition: 0.7s;
     display: flex;
     opacity: 1 !important;
 }
 
 @media (min-width: 1024px) {
+
+    .cardAbout{
+        height: 330px;
+    }
+
     .team3{
-        height: 380px;
+        height: 330px;
     }
     /*#sobreNosotros
     {
@@ -149,4 +155,16 @@
     .valoresImg{
         width: 60% !important;
     }
+    .team{
+        height: 242px;
+    }
+}
+
+.linkdinButton{
+    background-color: #15171d;
+    border: none;
+}
+
+.team{
+    height: 200px;
 }
