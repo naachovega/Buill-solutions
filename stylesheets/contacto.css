@@ -1,6 +1,7 @@
 
 #contacto{
     background-color: #17181c;
+    padding-bottom: 40px;
 }
 
 .inp{
@@ -87,6 +88,21 @@ input.enviar{
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+}
+
+.thankYou{
+    margin-top: 20px !important;
+    opacity: 0;
+}
+
+.aparecer{
+    opacity: 1;
+    transition: all 4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 @media (min-width: 1024px) {

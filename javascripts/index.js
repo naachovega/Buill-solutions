@@ -20,10 +20,7 @@ window.addEventListener("load", function(){
 		$(".negro").toggleClass("abierto");
   });
 
-  
-
-
-  const btn = document.getElementById('button');
+      const btn = document.getElementById('button');
                 const name = document.getElementById('name');
                 const email = document.getElementById('email');
                 const phone = document.getElementById('phone');
@@ -32,6 +29,7 @@ window.addEventListener("load", function(){
                 const plan2 = document.getElementById('plan2');
                 const plan3 = document.getElementById('plan3');
                 const plan4 = document.getElementById('plan4');
+                const thanks = document.getElementById('thanks');
 
         /*EmailJS*/
         document.getElementById('form')
@@ -46,6 +44,7 @@ window.addEventListener("load", function(){
         emailjs.sendForm(serviceID, templateID, this)
             .then(() => {
                 btn.value = 'Sent';
+                $("#thanks").toggleClass("aparecer")
 
                 setTimeout(() => {
                     name.value = '';
