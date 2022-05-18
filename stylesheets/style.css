@@ -193,12 +193,26 @@ h2.links{
   font-size: 48px;
 }
 
+.subTitle{
+  padding-top: 25px;
+  background-image: linear-gradient(60deg, #E43F5A, #7C30FF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 550;
+  text-align: center;
+  font-size: 32px;
+}
+
 @media (min-width:1204px) {
   .text{
     font-size: 26px;
   }
   .title{
     font-size: 56px;
+  }
+  .subTitle{
+    font-size: 38px;
   }
 }
 
@@ -220,10 +234,6 @@ h2.links{
 
 .even{
 text-align: right;
-}
-
-.footer{
-  padding-top: 35px;
 }
 
 #inicio{

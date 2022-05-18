@@ -56,7 +56,8 @@ h3.subTituloBienvenida{
     text-align: center;
     color: #ddd;
     font-size: 26px;
-    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .contactButton{
@@ -67,8 +68,7 @@ h3.subTituloBienvenida{
     color: #fff;
     text-align: end;
     font-weight: bold;
-    border-radius: 21px;
-    margin-top: 30px;
+    border-radius: 20px;
     padding: 8px;
 }
 

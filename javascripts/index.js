@@ -44,8 +44,9 @@ window.addEventListener("load", function(){
         emailjs.sendForm(serviceID, templateID, this)
             .then(() => {
                 btn.value = 'Sent';
-                $("#thanks").toggleClass("aparecer")
-
+                $("#thanks").removeClass("oculto")
+                $("#thanks").toggleClass("thankYou") 
+                
                 setTimeout(() => {
                     name.value = '';
                     email.value = '';
@@ -56,7 +57,7 @@ window.addEventListener("load", function(){
                     plan3.classList.remove("seleccionado");
                     plan4.classList.remove("seleccionado");
                     btn.value = 'Lets get in contact';
-                },2500);
+                },3000);
             }, (err) => {
             btn.value = 'Lets get in contact';
             alert(JSON.stringify(err)+ " - PORFAVOR CONTACTARSE POR WPP");
