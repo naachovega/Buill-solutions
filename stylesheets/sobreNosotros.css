@@ -42,7 +42,6 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  font-weight: 400;
   text-align: center;
 }
 
@@ -54,7 +53,6 @@
 
 .descTeam{
   color: #ddd;
-  font-weight: 300;
   font-size: 15px;
   text-align: center;
 }
