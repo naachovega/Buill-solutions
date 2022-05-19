@@ -16,13 +16,13 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #666;
+  background-image: linear-gradient(60deg, #E43F5A99, #7C30FF99);
   border-radius: 8px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #666;
+  background-image: linear-gradient(60deg, #E43F5A99, #7C30FF99);
 }
 
 /* Track */
