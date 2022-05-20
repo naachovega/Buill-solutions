@@ -42,7 +42,6 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  font-weight: 400;
   text-align: center;
 }
 
@@ -54,7 +53,6 @@
 
 .descTeam{
   color: #ddd;
-  font-weight: 300;
   font-size: 15px;
   text-align: center;
 }
@@ -111,7 +109,7 @@
 
 .textValores{
     transition: 0.7s;
-    margin: 10px 0px 60px 0px !important;
+    margin: 35px 0px 35px 0px !important;
     font-size: 19px;
     text-align: center;
     color: #dddddd;
@@ -174,4 +172,8 @@
     .team3{
         height: 380px !important;
     }
+}
+
+.values{
+    justify-content: space-around;
 }

@@ -6,6 +6,45 @@
     fondo azul mas oscuro #0d1119 / #15171d
 */
 
+/*
+  Scrollbar
+*/
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(60deg, #E43F5A99, #7C30FF99);
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(60deg, #E43F5A99, #7C30FF99);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #15171d;
+}
+
+/* The track NOT covered by the handle.
+::-webkit-scrollbar-track-piece {
+  background: #000;
+}
+
+/* Corner */
+::-webkit-scrollbar-corner {
+  background: #999;
+}
+
+/* Resizer */
+::-webkit-resizer {
+  background: #111;
+}
+
   ::webkit-selection {
     color:  #f43f5a;
     background: none;
@@ -40,9 +79,20 @@ header{
   background-color: #15171d;
 }
 
+@media (min-width:1440px) {
+  footer{
+    height: 8vh;
+  }
+
+  #contacto{
+    height: 92vh;
+  }
+}
+
 footer{
   background-color: #17181c;
   margin: 0 !important;
+  padding-top: 30px;
 }
 
 /*
@@ -193,12 +243,26 @@ h2.links{
   font-size: 48px;
 }
 
+.subTitle{
+  padding-top: 25px;
+  background-image: linear-gradient(60deg, #E43F5A, #7C30FF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 550;
+  text-align: center;
+  font-size: 32px;
+}
+
 @media (min-width:1204px) {
   .text{
     font-size: 26px;
   }
   .title{
     font-size: 56px;
+  }
+  .subTitle{
+    font-size: 38px;
   }
 }
 
@@ -220,10 +284,6 @@ h2.links{
 
 .even{
 text-align: right;
-}
-
-.footer{
-  padding-top: 35px;
 }
 
 #inicio{
