@@ -61,6 +61,7 @@
 .cardAbout{
     box-shadow: rgba(0, 0, 0, 0.4) 0px 7px 29px 0px;
     background-color: #15171d;
+    background: linear-gradient(180deg, rgba(40, 42, 63, 0.7) -40%, #15171d 55%);
     border-radius: 2rem;
     margin-top: 40px;
     width: 90%;

@@ -19,6 +19,7 @@
     display: flex;
     align-content: space-between;
     background-color: #15171d;
+    background: linear-gradient(200deg, rgba(65, 67, 102, 0.7) -40%, transparent 55%);
     height: 476px;
     padding: 15px;
     margin-bottom: 3%;
