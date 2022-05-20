@@ -14,6 +14,10 @@
     align-content: space-between;
     height: auto;
     background-color: #15171d;
+    background: linear-gradient(140deg, rgba(75, 78, 118, 0.7) -40%, #15171d 55%);
+    /*Segunda Opcion de fondo
+    background: linear-gradient(140deg, rgba(75, 78, 118, 0.7) -40%, transparent 55%);
+    */
     padding: 15px;
     margin-bottom: 3%;
     margin-top: 3% !important;
