@@ -106,6 +106,7 @@
 .valoresTitle{
     text-align: center;
     color: white;
+    font-size: 13px;
 }
 
 .textValores{
@@ -166,6 +167,9 @@
     }
     .team{
         height: 242px;
+    }
+    .valoresTitle{
+        font-size: 18px;
     }
 }
 

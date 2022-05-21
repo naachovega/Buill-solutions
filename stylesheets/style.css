@@ -16,13 +16,13 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(60deg, #E43F5A99, #7C30FF99);
+  background: #555;
   border-radius: 8px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background-image: linear-gradient(60deg, #E43F5A99, #7C30FF99);
+  background: #555;
 }
 
 /* Track */
@@ -94,25 +94,6 @@ footer{
   margin: 0 !important;
   padding-top: 30px;
 }
-
-/*
-HEADER STICKY (ROMPE)
-header.header-outer{
-  display: flex;
-  align-items: center;
-  position: sticky;
-  height: 120px;
-  top: -40px; 
-  z-index: 10;
-  background-color: #0d1119;
-  padding-top: 10px;
-}
-
-.header-inner {
-  height: 80px;
-  position: sticky;
-  top: 0; 
-}*/
 
 div.root{
   background-color: #0d1119;
@@ -289,3 +270,4 @@ text-align: right;
 #inicio{
   height: 100vh;
 }
+

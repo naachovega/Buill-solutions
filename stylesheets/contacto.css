@@ -13,6 +13,7 @@
     outline: none;
     border: 1px solid #dddddd21;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 29px 0px;
+    resize: none;
 }
 
 .inp:focus{
@@ -129,3 +130,10 @@ input.enviar{
     justify-content: end;
     margin: 10px !important;
 }
+
+.labelText{
+    font-size: 19px;
+    color: #dddddd;
+    padding-bottom:5px;
+    font-weight: 500;
+  }
