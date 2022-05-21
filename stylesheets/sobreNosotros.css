@@ -36,6 +36,7 @@
 .nombreEquipo{
     text-align: center;
     color: white;
+    font-size: 28px;
 }
 .puestoEquipo{
     background-image: linear-gradient(60deg, #E43F5A, #7C30FF);
