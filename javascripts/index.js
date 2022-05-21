@@ -74,6 +74,10 @@ window.addEventListener("load", function(){
 $(function () {
 
   var attr = $("#planSeleccionado").attr('required');
+  const plan1 = document.getElementById('plan1');
+  const plan2 = document.getElementById('plan2');
+  const plan3 = document.getElementById('plan3');
+  const plan4 = document.getElementById('plan4');
 
   $("#options").change(function () {
       if ($(this).val() == "website") {
@@ -83,6 +87,10 @@ $(function () {
           $("#planes").show();
       } else {
           $("#planSeleccionado").removeAttr('required');
+          plan1.classList.remove("seleccionado");
+          plan2.classList.remove("seleccionado");
+          plan3.classList.remove("seleccionado");
+          plan4.classList.remove("seleccionado");
           $("#planes").hide();
       }
   });

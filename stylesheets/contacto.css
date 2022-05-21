@@ -144,12 +144,14 @@ input.enviar{
 
 .box{
     position: relative;
-    background-color: #0d1119; 
-    border: none;
+    background-color: #15171d;
+    border: 1px solid #dddddd1c;
+    box-shadow: rgb(0 0 0 / 50%) 0px 7px 29px 0px;
     color: #ddd; 
-    height: 30px;
+    height: 36px;
     margin-bottom: 15px;
 }
+
 
 .comboBox{
     padding: 0 !important;
