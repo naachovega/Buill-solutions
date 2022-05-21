@@ -170,7 +170,7 @@
                                 <i class="fa-solid fa-angle-right"></i> A custom mail for your business.
                             </li> 
                             <li class="col-12">
-                                <i class="fa-solid fa-angle-right"></i> Signle page website.
+                                <i class="fa-solid fa-angle-right"></i> Signle page websites.
                             </li> 
                         </div>   
                         <div class="col-12"> 
@@ -357,20 +357,34 @@
                 We built our dream,
                 Now lets build yours. </p>
                 <form id="form" class="col-12 col-lg-12 row align">
-                    <label class="col-12 col-lg-7 odd labelText contactLabel" for="name">Full name*</label>
+                    <label class="col-12 col-lg-7 odd labelText contactLabel" for="name">Full name<sup>*</sup></label>
                     <input id="name" type="text" name="name" placeholder="Whats your name?" class="col-12 col-lg-7 inp" required>
-                    <label class="col-12 col-lg-7 odd labelText contactLabel" for="email">Business e-mail*</label>
+                    <label class="col-12 col-lg-7 odd labelText contactLabel" for="email">Business e-mail<sup>*</sup></label>
                     <input id="email" type="email" name="email" placeholder="Where should we contact you at?" class="col-12 col-lg-7 inp" required>
                     <label class="col-12 col-lg-7 odd labelText contactLabel" for="phone">Phone number</label>
                     <input id="phone" type="number" name="phone" placeholder="Leave us a phone number (optional)" class="col-12 col-lg-7 inp">
-                    <label class="col-12 col-lg-7 odd labelText contactLabel" for="planSeleccionado">Choose your site</label>
-                    <div class="col-12 col-lg-7 row align divPlanesContacto">
-                        <input id="planSeleccionado" name="planSeleccionado" class="col-12 col-lg-7" style="display:none" required>
+
+                    <div class="comboBox row col-12 col-lg-7">
+                    <label for="options" class="col-12 col-lg-7 odd labelText contactLabel">Choose what you want<sup>*</sup> </label>
+                    <select class="box" id="options" required>
+                        <option id="" value="" selected disabled>Select an option...</option>
+                        <option id="website" value="website">Website</option>
+                        <option id="socialMedia" value="socialMedia">Social Media Management (Coming Soon... 😏)</option>
+ <!--                   <option id="seo" value="seo" >SEO (coming soon)</option>
+                        <option id="webApp" value="app" >WebApp (coming soon)</option>
+                        <option id="mobileApp" value="mobileApp">Mobile App (coming soon)</option>-->
+                    </select>
+
+                    <div style="display:none" id="planes" class="comboBox col-12 col-lg-12 row align divPlanesContacto">
+                       <label class="labelText contactLabel" for="planSeleccionado">Choose your site</label>   
+                        <input id="planSeleccionado" name="planSeleccionado"  style="display:none" required>
                         <div id="plan1" class="col-12 col-lg-3 planSelec align"><p>LANDING-PAGE</p></div>
                         <div id="plan2" class="col-12 col-lg-3 planSelec align"><p>FULL-PAGE</p></div>
                         <div id="plan3" class="col-12 col-lg-3 planSelec align"><p>E-COMMERCE</p></div>
                         <div id="plan4" class="col-12 col-lg-3 planSelec align"><p>CUSTOM MADE</p></div>
                     </div>
+
+                     </div>  
                     <label class="col-12 col-lg-7 odd labelText contactLabel" for="message">Tell us about your project</label>
                     <textarea id="message" placeholder="Whats your dream project about? (optional)" cols="3" name="message" id="" rows="3" class="col-12 col-lg-7 inp" ></textarea>
                     <div class="col-12 col-lg-7 sendForm row">
@@ -395,7 +409,7 @@
         <div class="sombraWpp"></div>
         </a>
         <footer class="row col-12 footer align">
-            <p class="col-12 rights">© 2022 Buill Solutions All rights reserved Privacy Policies </p>
+            <p class="col-12 rights">© 2022 Buill Solutions All rights reserved</p>
 
         </footer>
     </main>

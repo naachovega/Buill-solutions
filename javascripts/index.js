@@ -21,15 +21,15 @@ window.addEventListener("load", function(){
   });
 
       const btn = document.getElementById('button');
-                const name = document.getElementById('name');
-                const email = document.getElementById('email');
-                const phone = document.getElementById('phone');
-                const message = document.getElementById('message');
-                const plan1 = document.getElementById('plan1');
-                const plan2 = document.getElementById('plan2');
-                const plan3 = document.getElementById('plan3');
-                const plan4 = document.getElementById('plan4');
-                const thanks = document.getElementById('thanks');
+      const name = document.getElementById('name');
+      const email = document.getElementById('email');
+      const phone = document.getElementById('phone');
+      const message = document.getElementById('message');
+      const plan1 = document.getElementById('plan1');
+      const plan2 = document.getElementById('plan2');
+      const plan3 = document.getElementById('plan3');
+      const plan4 = document.getElementById('plan4');
+      const thanks = document.getElementById('thanks');
 
         /*EmailJS*/
         document.getElementById('form')
@@ -41,12 +41,18 @@ window.addEventListener("load", function(){
         const serviceID = 'default_service';
         const templateID = 'template_jav4n2e';
 
+
+
         emailjs.sendForm(serviceID, templateID, this)
             .then(() => {
+
                 btn.value = 'Sent';
-                $("#thanks").removeClass("oculto")
-                $("#thanks").toggleClass("thankYou") 
-                
+
+                if (btn.value = 'Sent') {
+                  $("#thanks").removeClass("oculto")
+                  $("#thanks").toggleClass("thankYou") 
+                }
+
                 setTimeout(() => {
                     name.value = '';
                     email.value = '';
@@ -65,5 +71,19 @@ window.addEventListener("load", function(){
         });
 })
 
+$(function () {
 
+  var attr = $("#planSeleccionado").attr('required');
 
+  $("#options").change(function () {
+      if ($(this).val() == "website") {
+        if (typeof attr !== 'undefined') {
+          $("#planSeleccionado").attr('required',true)
+        }
+          $("#planes").show();
+      } else {
+          $("#planSeleccionado").removeAttr('required');
+          $("#planes").hide();
+      }
+  });
+});

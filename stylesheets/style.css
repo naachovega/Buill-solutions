@@ -96,7 +96,8 @@ footer{
 }
 
 div.root{
-  background-color: #0d1119;
+  background-image: linear-gradient(65deg,#0d1119, #17181c );
+  /*background-color: #0d1119;*/
 }
 
 h1.coming{

@@ -96,9 +96,6 @@ input.enviar{
     transition: all 4s;
 }
 
-.aparecer{
-}
-
 @keyframes fadein {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -137,3 +134,28 @@ input.enviar{
     padding-bottom:5px;
     font-weight: 500;
   }
+
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+}
+
+.box{
+    position: relative;
+    background-color: #0d1119; 
+    border: none;
+    color: #ddd; 
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.comboBox{
+    padding: 0 !important;
+}
+
+::placeholder {
+    color: #dddddd80;
+    font-weight: 300;
+}
