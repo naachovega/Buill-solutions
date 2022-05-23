@@ -13,6 +13,7 @@
     outline: none;
     border: 1px solid #dddddd21;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 29px 0px;
+    resize: none;
 }
 
 .inp:focus{
@@ -95,9 +96,6 @@ input.enviar{
     transition: all 2s;
 }
 
-.aparecer{
-}
-
 @keyframes fadein {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -128,4 +126,38 @@ input.enviar{
 .sendForm{
     justify-content: end;
     margin: 10px !important;
+}
+
+.labelText{
+    font-size: 19px;
+    color: #dddddd;
+    padding-bottom:5px;
+    font-weight: 500;
+  }
+
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+}
+
+.box{
+    position: relative;
+    background-color: #15171d;
+    border: 1px solid #dddddd1c;
+    box-shadow: rgb(0 0 0 / 50%) 0px 7px 29px 0px;
+    color: #ddd; 
+    height: 36px;
+    margin-bottom: 15px;
+}
+
+
+.comboBox{
+    padding: 0 !important;
+}
+
+::placeholder {
+    color: #dddddd80;
+    font-weight: 300;
 }
