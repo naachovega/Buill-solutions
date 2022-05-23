@@ -46,6 +46,48 @@ div .violeta.cerrado {
 
 }
 
+.botonesHam{
+    border-top: 0.5px solid #dddddd;
+    margin-top: 5px;
+}
+
+.mailto{
+    color: #ddd;
+    text-decoration: none;
+  }
+  
+  .mailto:hover{
+    color: #ddd;
+  }
+  
+  .socialMediaButtons{
+    border: none;
+    background-color: #0d1116;
+  }
+
+  .idioma{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+  }
+  
+  .idioma a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #dddddd;
+  }
+  
+  .idioma a:hover{
+    text-decoration: none;
+    color: #dddddd;
+  }
+  
+  .idioma span{
+    font-size: 16px;
+  }
+
 .menu-mobile #bt-menu-mobile.close-bt-hamburguer{
     position: fixed;
     top: 5%;
